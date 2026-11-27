@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iEnergy</title>
+<meta name="description" content="Article index for iEnergy — Volumes 4–5 (2025–2026)">
+<style>
+:root {
+  --bg: #ffffff;
+  --card: #ffffff;
+  --primary: #d97706;
+  --primary-dark: #92400e;
+  --accent: #f59e0b;
+  --accent-light: #fef3c7;
+  --accent-bg: #fffbeb;
+  --text: #1a1a1a;
+  --text-muted: #5a5a5a;
+  --border: #fde68a;
+  --radius: 12px;
+  --shadow: 0 1px 3px rgba(217,119,6,0.06), 0 4px 12px rgba(217,119,6,0.04);
+  --shadow-hover: 0 4px 12px rgba(217,119,6,0.1), 0 8px 24px rgba(217,119,6,0.06);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(135deg, #92400e 0%, #d97706 50%, #f59e0b 100%);
+  color: #fff;
+  padding: 28px 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 20px rgba(217,119,6,0.25);
+}
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 { font-size: 1.5rem; font-weight: 700; }
+.header p { opacity: 0.9; font-size: 0.9rem; margin-top: 4px; }
+.header-links { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+.header-links a {
+  color: #fff;
+  font-size: 0.85rem;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.5);
+  padding: 4px 12px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.header-links a:hover { background: rgba(255,255,255,0.15); }
+
+/* Search */
+.search-section {
+  background: var(--accent-bg);
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+.search-row {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.search-wrap {
+  width: 260px;
+  flex: none;
+  position: relative;
+}
+.search-wrap .icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0.5;
+}
+.search-wrap input {
+  width: 100%;
+  padding: 10px 14px 10px 40px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+.search-wrap input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.filter-select {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: #fff;
+  cursor: pointer;
+  min-width: 100px;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1 1 0;
+}
+.filter-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+/* Stats */
+.stats-row {
+  max-width: 1200px;
+  margin: 16px auto;
+  padding: 0 24px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.stat-chip {
+  background: var(--accent-bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 12px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.stat-chip .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); }
+
+/* Article list */
+.list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px 40px;
+}
+
+/* Card */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.2s;
+}
+.card:hover { box-shadow: var(--shadow-hover); }
+.card-head {
+  padding: 16px 20px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text);
+  flex: 1;
+  line-height: 1.5;
+}
+.badges {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-shrink: 0;
+}
+.badge-year, .badge-type {
+  background: var(--accent-bg);
+  color: var(--primary);
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.btn-expand {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+.btn-expand:hover { background: var(--accent-bg); border-color: var(--accent); }
+
+.card-authors {
+  padding: 0 20px 8px;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+.card-keywords {
+  padding: 4px 20px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.kw {
+  background: var(--accent-bg);
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: var(--primary);
+}
+.kw-area {
+  background: #fff3e0;
+  color: #e65100;
+  font-weight: 600;
+}
+.card-doi {
+  padding: 4px 20px;
+  font-size: 0.8rem;
+}
+.card-doi a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.card-doi a:hover { text-decoration: underline; }
+
+/* Cite row */
+.card-cite {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f0faf9;
+  border-radius: 0 0 8px 8px;
+  border: 1px solid var(--border);
+  border-top: none;
+  box-shadow: 0 1px 3px rgba(0,137,123,0.06);
+}
+.card-cite-text {
+  flex: 1;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card-cite-btn {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+.card-cite-btn:hover { background: var(--primary-dark); }
+.card-cite-btn.copied { background: #4caf50; }
+
+/* Detail panel */
+.detail {
+  padding: 0 20px 16px;
+  display: none;
+}
+.card.expanded .detail { display: block; }
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.d-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.d-item label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.d-item span {
+  font-size: 0.85rem;
+  color: var(--text);
+}
+.d-abstract {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-top: 8px;
+}
+.d-abstract strong { color: var(--text); margin-right: 4px; }
+.d-links {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.d-links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.d-links a:hover { text-decoration: underline; }
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+}
+.footer a { color: var(--accent); text-decoration: none; }
+.footer a:hover { text-decoration: underline; }
+
+/* Message */
+.center-msg {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-muted);
+}
+.spinner {
+  width: 30px;
+  height: 30px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 12px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Search highlight */
+mark {
+  background: #fde047;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+/* Back to top */
+.back-top {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #d97706;
+  color: #fff;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.3s, background 0.2s;
+  z-index: 99;
+  box-shadow: 0 2px 12px rgba(217,119,6,0.3);
+}
+.back-top.visible { opacity: 1; }
+.back-top:hover { background: #92400e; }
+
+@media (max-width: 768px) {
+  .header-inner { flex-direction: column; align-items: flex-start; }
+  .search-row { flex-direction: column; }
+  .search-wrap { width: 100%; flex: none; }
+  .filter-select { width: 100%; }
+  .back-top { width: 42px; height: 42px; bottom: 20px; right: 20px; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <div>
+      <h1>iEnergy</h1>
+      <p>Volumes 4–5 (2025–2026) — Article Index &amp; Search</p>
+      <div class="header-links">
+        <a href="https://www.sciopen.com/journal/2771-9197" target="_blank">Home page</a>
+        <a href="https://mc03.manuscriptcentral.com/ienergy" target="_blank" class="header-link">Submission link</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section class="search-section">
+  <div class="search-row">
+    <div class="search-wrap">
+      <span class="icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search by title, author, keyword...">
+    </div>
+    <select class="filter-select" id="yearFilter"><option value="">All Years</option></select>
+    <select class="filter-select" id="typeFilter"><option value="">All Types</option></select>
+    <select class="filter-select" id="areaFilter"><option value="">All Research Areas</option></select>
+  </div>
+</section>
+
+<div class="stats-row" id="statsRow"></div>
+
+<div class="list" id="articleList"><div class="center-msg"><div class="spinner"></div><div>Loading articles...</div></div></div>
+
+<button id="backTop" class="back-top" title="Back to search">▴</button>
+
+<div class="footer">
+  iEnergy &copy; 2026 — Data from <a href="https://www.sciopen.com" target="_blank">SciOpen</a>
+</div>
+
+<script>
+const DATA_URL = 'articles_md/articles.json?v=20261127';
+let allArticles = [];
+let filteredArticles = [];
+
+const $search = document.getElementById('searchInput');
+const $year = document.getElementById('yearFilter');
+const $type = document.getElementById('typeFilter');
+const $area = document.getElementById('areaFilter');
+const $list = document.getElementById('articleList');
+const $stats = document.getElementById('statsRow');
+const $backTop = document.getElementById('backTop');
+
+/* ── Back to Top ── */
+window.addEventListener('scroll', () => {
+  $backTop.classList.toggle('visible', window.scrollY > 400);
+});
+$backTop.addEventListener('click', () => {
+  $search.focus();
+  $search.scrollIntoView({ behavior: 'smooth', block: 'center' });
+});
+
+/* ── Load ── */
+async function loadData() {
+  try {
+    const r = await fetch(DATA_URL);
+    allArticles = await r.json();
+    filteredArticles = allArticles;
+    fillFilters();
+    render();
+  } catch (e) {
+    $list.innerHTML = '<div class="center-msg">⚠️ Failed to load: ' + e.message + '</div>';
+  }
+}
+
+/* ── Filters ── */
+function fillFilters() {
+  const years = new Set(), types = new Set(), areas = new Set();
+  allArticles.forEach(a => { 
+    if (a.year) years.add(a.year); 
+    if (a.type) types.add(a.type); 
+    (a.research_area||[]).forEach(ar => areas.add(ar));
+  });
+  [...years].sort((a,b)=>b-a).forEach(y => {
+    const o = document.createElement('option'); o.value = y; o.textContent = y; $year.appendChild(o);
+  });
+  [...types].sort().forEach(t => {
+    const o = document.createElement('option'); o.value = t; o.textContent = t; $type.appendChild(o);
+  });
+  [...areas].sort().forEach(a => {
+    const o = document.createElement('option'); o.value = a; o.textContent = a; $area.appendChild(o);
+  });
+}
+
+let currentQuery = '';
+
+function applyFilters() {
+  const q = $search.value.trim();
+  currentQuery = q;
+  const yv = $year.value, tv = $type.value, av = $area.value;
+  filteredArticles = allArticles
+    .map(a => {
+      if (yv && a.year != yv) return null;
+      if (tv && a.type !== tv) return null;
+      if (av && !(a.research_area||[]).includes(av)) return null;
+      const score = searchScore(a, q);
+      if (q && score === 0) return null;
+      return { ...a, _score: score, _q: q };
+    })
+    .filter(Boolean)
+    .sort((a, b) => b._score - a._score);
+  render();
+}
+
+/* ── Highlight ── */
+function highlight(text, query) {
+  if (!query || !text) return esc(text || '');
+  const tokens = [...new Set(query.trim().split(/\s+/).filter(Boolean))]
+    .sort((a, b) => b.length - a.length)
+    .map(tok => tok.replace(/[.*+?^${}()|[\]\\]/g, '\$&'));
+  if (tokens.length === 0) return esc(text);
+  const combinedRe = new RegExp('(' + tokens.join('|') + ')', 'gi');
+  const parts = esc(text).split(/(<[^>]*>)/);
+  return parts.map(part => {
+    if (part.startsWith('<')) return part;
+    return part.replace(combinedRe, '<mark style="background:#fde047;padding:0 2px;border-radius:2px">$1</mark>');
+  }).join('');
+}
+
+/* ── Fuzzy Search ── */
+function fuzzyMatch(text, query) {
+  if (!query) return { match: true, score: 0 };
+  const t = (text || '').toLowerCase();
+  const q = query.toLowerCase().trim();
+  if (!q) return { match: true, score: 0 };
+  if (t.includes(q)) return { match: true, score: 10 };
+  const tokens = q.split(/\s+/);
+  let allMatch = true;
+  for (const tok of tokens) {
+    if (!t.includes(tok)) { allMatch = false; break; }
+  }
+  if (allMatch) return { match: true, score: 5 };
+  let qi = 0;
+  for (let i = 0; i < t.length && qi < q.length; i++) {
+    if (t[i] === q[qi]) qi++;
+  }
+  if (qi === q.length) return { match: true, score: 2 };
+  return { match: false, score: 0 };
+}
+
+function searchScore(a, q) {
+  if (!q) return 1;
+  const tokens = q.toLowerCase().trim().split(/\s+/);
+  let total = 0;
+  let anyMatch = false;
+  for (const tok of tokens) {
+    const fields = [
+      { v: a.title || '', w: 10 },
+      { v: (a.authors||[]).join(' ') || '', w: 5 },
+      { v: (a.keywords||[]).join(' ') || '', w: 4 },
+      { v: (a.research_area||[]).join(' ') || '', w: 3 },
+      { v: a.abstract || '', w: 1 },
+    ];
+    let best = 0;
+    for (const f of fields) {
+      const r = fuzzyMatch(f.v, tok);
+      if (r.match) {
+        anyMatch = true;
+        best = Math.max(best, r.score * f.w);
+      }
+    }
+    total += best;
+  }
+  return anyMatch ? total : 0;
+}
+
+/* ── Render ── */
+function render() {
+  $stats.innerHTML = '<div class="stat-chip"><span class="dot"></span><strong>' + filteredArticles.length + '</strong> articles</div>' +
+    (currentQuery ? '<div class="stat-chip">Sorted by relevance</div>' : '');
+
+  if (!filteredArticles.length) {
+    $list.innerHTML = '<div class="center-msg"><div style="font-size:2.5rem;margin-bottom:8px">🔍</div><div>No articles found</div></div>';
+    return;
+  }
+
+  $list.innerHTML = filteredArticles.map((a,i) => {
+    const authors = Array.isArray(a.authors) ? a.authors : [];
+    const formattedAuthors = authors.map(auth => {
+      const name = (auth || '').trim();
+      return '<span style="display:inline-block;white-space:nowrap">' + esc(name) + '</span>';
+    }).join(', ');
+    const kws = (a.keywords||[]).slice(0,6).map(k => '<span class="kw">' + highlight(k.replace(FMT_TAG_RE, ''), currentQuery) + '</span>').join('');
+    const volIssue = (a.volume || a.issue) ? 'Vol.' + (a.volume||'?') + ' Iss. ' + (a.issue||'?') : '';
+
+    return '<div class="card" data-idx="' + i + '">' +
+      '<div class="card-head" onclick="toggle(this.parentElement)">' +
+        '<div class="card-title">' + highlight((a.title || '').replace(FMT_TAG_RE, ''), currentQuery) + '</div>' +
+        '<div class="badges">' +
+          (a.year ? '<span class="badge-year">' + a.year + '</span>' : '') +
+          (a.type ? '<span class="badge-type">' + esc(a.type) + '</span>' : '') +
+          (volIssue ? '<span class="badge-type">' + esc(volIssue) + '</span>' : '') +
+          '<button class="btn-expand" onclick="event.stopPropagation();toggle(this.closest(\'.card\'))">Expand ▾</button>' +
+        '</div>' +
+      '</div>' +
+      '<div class="card-authors">' + formattedAuthors + '</div>' +
+      (kws ? '<div class="card-keywords">' + kws + '</div>' : '') +
+      (a.research_area && a.research_area.length ? '<div class="card-keywords"><span style="font-size:0.78rem;color:#666;margin-right:4px;font-weight:600">Research area:</span>' + a.research_area.map(ar => '<span class="kw kw-area">' + esc(ar) + '</span>').join('') + '</div>' : '') +
+      (a.doi ? '<div class="card-doi"><a href="https://doi.org/' + a.doi + '" target="_blank" onclick="event.stopPropagation()">https://doi.org/' + esc(a.doi) + '</a></div>' : '') +
+      '<div class="card-cite" onclick="event.stopPropagation()">' +
+        '<span class="card-cite-text">' + getCiteText(a) + '</span>' +
+        '<button class="card-cite-btn" data-doi="' + a.doi + '" onclick="copyCite(this)">Copy</button>' +
+        '<button class="card-cite-btn" style="background:#27ae60" data-doi="' + a.doi + '" onclick="downloadRIS(this)">RIS</button>' +
+        '<button class="card-cite-btn" style="background:#9b59b6" data-doi="' + a.doi + '" onclick="downloadBibTeX(this)">BibTeX</button>' +
+      '</div>' +
+      '<div class="detail">' +
+        '<div class="detail-grid">' +
+          (a.doi ? '<div class="d-item"><label>DOI</label><span>' + esc(a.doi) + '</span></div>' : '') +
+          (a.volume ? '<div class="d-item"><label>Volume(Issue)</label><span>' + a.volume + '(' + a.issue + ')</span></div>' : '') +
+          (a.firstpage ? '<div class="d-item"><label>Pages</label><span>' + (a.lastpage && a.lastpage !== a.firstpage ? a.firstpage + '-' + a.lastpage : a.firstpage) + '</span></div>' : '') +
+        '</div>' +
+        (a.abstract ? '<div class="d-abstract"><strong>Abstract:</strong> ' + highlight(a.abstract.replace(FMT_TAG_RE, ''), currentQuery) + '</div>' : '') +
+        '<div class="d-links">' +
+          
+          (a.pdf ? '<a href="' + a.pdf + '" target="_blank" onclick="event.stopPropagation()">Download PDF →</a>' : '') +
+        '</div>' +
+      '</div>' +
+    '</div>';
+  }).join('');
+}
+
+/* ── Toggle ── */
+function toggle(card) {
+  card.classList.toggle('expanded');
+  const btn = card.querySelector('.btn-expand');
+  if (btn) {
+    btn.textContent = card.classList.contains('expanded') ? 'Collapse ▴' : 'Expand ▾';
+  }
+}
+
+/* ── Cite Text ── */
+function getCiteText(a) {
+  const aus = (a.authors||[]).map(auth => {
+    const name = (auth || '').trim();
+    const parts = name.split(/\s+/);
+    if (parts.length >= 2) {
+      const last = parts[parts.length-1];
+      const firstInit = parts[0]?.[0]?.toUpperCase() || '';
+      return last + ' ' + firstInit;
+    }
+    return name;
+  });
+  let authorStr;
+  if (aus.length > 3) {
+    authorStr = aus.slice(0,3).join(', ') + ', et al';
+  } else {
+    authorStr = aus.join(', ');
+  }
+  const year = a.year || '';
+  const title = (a.title || '').replace(FMT_TAG_RE, '');
+  const volIssue = (a.volume || a.issue) ? a.volume + '(' + a.issue + ')' : '';
+  const pages = (a.firstpage && a.lastpage && a.lastpage !== a.firstpage) ? a.firstpage + '-' + a.lastpage : (a.firstpage || '');
+  const doiUrl = 'https://doi.org/' + (a.doi || '');
+  return authorStr + '. ' + title + '. iEnergy, ' + year + ', ' + volIssue + ': ' + pages + '. ' + doiUrl;
+}
+
+/* ── Copy Cite ── */
+function copyCite(btn) {
+  const doi = btn.dataset.doi;
+  const a = allArticles.find(x => x.doi === doi);
+  if (!a) return;
+  const text = getCiteText(a);
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(text).then(() => {
+      showCopied(btn);
+    }).catch(() => {
+      fallbackCopy(text, btn);
+    });
+  } else {
+    fallbackCopy(text, btn);
+  }
+}
+
+function fallbackCopy(text, btn) {
+  const ta = document.createElement('textarea');
+  ta.value = text;
+  ta.style.position = 'fixed';
+  ta.style.opacity = '0';
+  document.body.appendChild(ta);
+  ta.select();
+  try {
+    document.execCommand('copy');
+    showCopied(btn);
+  } catch(e) {}
+  document.body.removeChild(ta);
+}
+
+function showCopied(btn) {
+  btn.textContent = 'Copied ✓';
+  btn.classList.add('copied');
+  setTimeout(() => {
+    btn.textContent = 'Copy';
+    btn.classList.remove('copied');
+  }, 1500);
+}
+
+/* ── Escape ── */
+/* ── Strip ── */
+/* Remove only known inline formatting tags; a generic /<[^>]+>/ would also
+   delete real text such as "<Height, Width, Channel>" in decoded abstracts. */
+const FMT_TAG_RE = /<\/?(?:i|b|em|strong|sup|sub|span|small|mark|u|s|strike|tt|code|math|mi|mn|mo|mtext|msub|msup|mrow)\b[^>]*\/?>/gi;
+
+function esc(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+/* ── Download BibTeX ── */
+function stripHtml(text) {
+  if (!text) return '';
+  return text.replace(FMT_TAG_RE, '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();
+}
+
+function downloadBibTeX(btn) {
+  const doi = btn.dataset.doi;
+  const a = allArticles.find(x => x.doi === doi);
+  if (!a) return;
+  const bib = [];
+  const authorStr = (a.authors||[]).map(auth => (auth || '').trim()).join(' and ');
+  const firstAuthor = (a.authors||[])[0] || '';
+  const firstName = (firstAuthor || '').trim();
+  const nameParts = firstName.split(/\s+/);
+  const lastAuthor = nameParts.length > 1 ? nameParts[nameParts.length-1] : firstName;
+  const key = lastAuthor.replace(/[^a-zA-Z]/g, '') + (a.year||'');
+  bib.push('@article{' + key + ', ');
+  bib.push('author = {' + authorStr + '},');
+  bib.push('title = {' + (a.title||'').replace(FMT_TAG_RE, '') + '},');
+  bib.push('year = {' + (a.year||'') + '},');
+  bib.push('journal = {iEnergy},');
+  if (a.volume) bib.push('volume = {' + a.volume + '},');
+  if (a.issue) bib.push('number = {' + a.issue + '},');
+  if (a.firstpage) bib.push('pages = {' + a.firstpage + (a.lastpage && a.lastpage !== a.firstpage ? '-' + a.lastpage : '') + '},');
+  if (a.keywords && a.keywords.length) bib.push('keywords = {' + a.keywords.join(', ') + '},');
+  if (a.doi) bib.push('url = {https://doi.org/' + a.doi + '},');
+  if (a.doi) bib.push('doi = {' + a.doi + '},');
+  if (a.abstract) bib.push('abstract = {' + stripHtml(a.abstract) + '},');
+  bib.push('}');
+  const fn = (a.doi||'IEN').replace(/[/\\]/g,'_') + '.bib';
+  download(bib.join('\r\n'), fn, 'application/x-bibtex;charset=utf-8;');
+}
+
+/* ── Download RIS ── */
+function downloadRIS(btn) {
+  const doi = btn.dataset.doi;
+  const a = allArticles.find(x => x.doi === doi);
+  if (!a) return;
+  const ris = [];
+  ris.push('TY  - JOUR');
+  (a.authors||[]).forEach(auth => {
+    const name = (auth || '').trim();
+    const parts = name.split(/\s+/);
+    if (parts.length >= 2) {
+      ris.push('AU  - ' + parts[parts.length-1] + ', ' + parts.slice(0,-1).join(' '));
+    } else {
+      ris.push('AU  - ' + name);
+    }
+  });
+  if (a.year) ris.push('PY  - ' + a.year);
+  ris.push('TI  - ' + (a.title||'').replace(FMT_TAG_RE, ''));
+  ris.push('JO  - iEnergy');
+  ris.push('SN  - 2771-9197');
+  if (a.firstpage) ris.push('SP  - ' + a.firstpage);
+  if (a.lastpage && a.lastpage !== a.firstpage) ris.push('EP  - ' + a.lastpage);
+  if (a.volume) ris.push('VL  - ' + a.volume);
+  if (a.issue) ris.push('IS  - ' + a.issue);
+  if (a.abstract) ris.push('AB  - ' + a.abstract.replace(FMT_TAG_RE, '').replace(/\s+/g,' ').trim());
+  if (a.doi) ris.push('UR  - https://doi.org/' + a.doi);
+  if (a.doi) ris.push('DO  - ' + a.doi);
+  const fn = (a.doi||'IEN').replace(/[/\\]/g,'_') + '.ris';
+  download(ris.join('\r\n') + '\r\n', fn, 'application/x-research-info-systems;charset=utf-8;');
+}
+
+/* ── Download helper ── */
+function download(content, filename, mime) {
+  const blob = new Blob([content], { type: mime });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url; a.download = filename;
+  document.body.appendChild(a); a.click();
+  document.body.removeChild(a); URL.revokeObjectURL(url);
+}
+
+/* ── Events ── */
+$search.addEventListener('input', debounce(applyFilters, 300));
+$year.addEventListener('change', applyFilters);
+$type.addEventListener('change', applyFilters);
+$area.addEventListener('change', applyFilters);
+
+function debounce(fn, ms) {
+  let t;
+  return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); };
+}
+
+/* ── Init ── */
+loadData();
+</script>
+</body>
+</html>
