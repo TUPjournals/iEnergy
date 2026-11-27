@@ -1,0 +1,1686 @@
+[
+ {
+  "doi": "10.23919/IEN.2026.0016",
+  "title": "Modeling and performance analysis of a dielectric elastomer-based structure for flapping-wing applications",
+  "authors": [
+   "Wen-Zhuo Dong",
+   "Hui-Yi Hu",
+   "Jie Mao",
+   "Li-Juan Yin",
+   "Lei Huang",
+   "Di-Fan Liu",
+   "Zhi-Min Dang"
+  ],
+  "keywords": [
+   "Dielectric elastomer",
+   "Flapping",
+   "Actuator",
+   "Modeling",
+   "Load"
+  ],
+  "abstract": "Dielectric elastomers are a class of smart materials capable of converting electrical energy into mechanical motion, offering great potential for lightweight and efficient actuation systems. In this work, a dielectric elastomer-transmission-wing (DETW) structure was developed to transform the in-plane vibration of a dielectric elastomer actuator into flapping motion. The static performance of the dielectric elastomer actuator was first analyzed, followed by the fabrication of a flapping-wing prototype. An energy-based model was established for DETW using the Lagrangian approach, which incorporates air load and key dissipative factors such as material viscosity. The model enables a clear understanding of how mechanical loads influence the flapping behavior and dynamic response of the structure. Experiments further confirmed the feasibility of the DETW concept and the prediction accuracy of the model.",
+  "volume": "5",
+  "issue": "3",
+  "firstpage": "173",
+  "lastpage": "180",
+  "publication_date": "2026/9/20",
+  "online_date": "2026/11/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0016.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0016",
+  "research_area": [
+   "Electric Machine Systems"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0021",
+  "title": "Emission-aware energy management and renewable forecasting in microgrids using machine learning and hippopotamus optimizer",
+  "authors": [
+   "Ahmed N. Sheta",
+   "Magda I. El-Afifi",
+   "Abdelfattah A. Eladl",
+   "Pierluigi Siano",
+   "Bishoy E. Sedhom"
+  ],
+  "keywords": [
+   "Renewable energy resources",
+   "Energy management",
+   "Microgrids",
+   "Machine learning",
+   "Optimization",
+   "Modified hippopotamus optimizer"
+  ],
+  "abstract": "The global transition toward sustainable energy is accelerating due to rising environmental concerns and the need to minimize fossil fuel dependency. Microgrids (MGs), which integrate distributed energy resources (DERs) such as solar and wind, provide a flexible and sustainable solution. However, renewable generation variability and dynamic operating conditions challenge energy balance and cost efficiency. This paper presents a machine learning (ML)-based energy management system (EMS) designed to improve forecasting accuracy, optimize scheduling, and enhance MG reliability in both grid-connected and islanded modes. The proposed EMS employs advanced ML models trained on historical data, weather conditions, and real-time parameters to accurately forecast solar and wind power generation. These forecasts feed into a dynamic optimization framework solved using the modified hippopotamus optimizer (MHO), which determines the optimal DER operation and grid interaction. Additionally, a real-time energy trading mechanism is incorporated to enable cost-effective energy exchange decisions based on market prices, load demand, and renewable availability. By maximizing renewable utilization and ensuring seamless operational transitions, the framework reduces reliance on external power sources, lowers operational costs and emissions, and enhances system resilience. Case studies demonstrate the system’s ability to maintain energy balance under varying operating conditions, highlighting its potential for advancing sustainable MG management.",
+  "volume": "5",
+  "issue": "3",
+  "firstpage": "181",
+  "lastpage": "201",
+  "publication_date": "2026/9/20",
+  "online_date": "2026/11/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0021.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0021",
+  "research_area": [
+   "Energy System Integration",
+   "Low Carbon Energy Technologies"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0019",
+  "title": "Investigation of factors leading to the hard unit commitment problem",
+  "authors": [
+   "Shengpeng Qu",
+   "Qian Gao",
+   "Zhifang Yang"
+  ],
+  "keywords": [
+   "Unit commitment",
+   "Mixed integer linear programming",
+   "Hard UC problem",
+   "Constraint stress",
+   "Root relaxation",
+   "MILP gap"
+  ],
+  "abstract": "The unit commitment (UC) problem is a typical mixed integer linear programming (MILP) problem in power systems. It often encounters significant computational challenges in power industries. With the development of power systems, the structure of the UC model and the scenarios that need to be considered become more complex and unpredictable, which increases the hardness of the UC solution. However, a systematic investigation of the key factors determining UC solution difficulty remains a hanging problem, limiting the development of targeted efficient algorithms. This paper presents a comprehensive analysis of three critical factors determining UC computational complexity: constraint stress, root relaxation quality, and convergence criteria. Through the indicator definition, this paper quantitatively evaluates proposed key factors and reveals the influence mechanisms of the proposed key factors on the hardness of UC solution through extensive case statistical analysis. The analysis of this paper provides effective references for efficient and customized UC solution algorithms.",
+  "volume": "5",
+  "issue": "3",
+  "firstpage": "202",
+  "lastpage": "212",
+  "publication_date": "2026/9/20",
+  "online_date": "2026/11/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0019.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0019",
+  "research_area": [
+   "Power System Operation and Control"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0017",
+  "title": "Reliability-oriented optimal operation of distribution network considering the coordinated flexibility of EVs and hydrogen fueling stations",
+  "authors": [
+   "Jiamei Zhang",
+   "Kai Sun",
+   "Goran Strbac",
+   "Fei Teng"
+  ],
+  "keywords": [
+   "Distribution network",
+   "EVs",
+   "Hydrogen fueling station",
+   "Multi-state Markov",
+   "Reliability evaluation"
+  ],
+  "abstract": "The increasing penetration of electric vehicles (EVs) and hydrogen fueling stations (HFSs) brings up additional power demand with high flexibility, which shows great potential to enhance the performance of the distribution network. This paper proposes a reliability-oriented optimal operation model considering the coordinated flexibility of EVs and HFSs to reduce interruption loss during outages for the distribution network. In the proposed model, to incorporate the flexibility of HFSs, the multi-state Markov model considering multi-mode operation and inherent reliability is formulated for HFSs. To estimate the comprehensive demand of different types of vehicles, a novel behavior model is established to consider the respective characteristics of EVs and hydrogen-based fuel cell electric vehicles, and support vector regression (SVR) is deployed for traffic volume forecasting. The Monte Carlo simulation (MCS) technique is utilized for system state analysis during contingencies. Based on the simulation results, the system reliability, operation economy, and renewable energy accommodation capability are comprehensively evaluated. The proposed method is tested on the modified IEEE 34-bus system considering multi-time periods. The results indicate that, compared with existing methods that do not account for coordination with HFSs, the proposed coordinated method reduces the expected energy not supplied (EENS) and loss of load probability (LOLP) by 33.8% and 18.9%, respectively, and lowers the interruption costs by 25.9%.",
+  "volume": "5",
+  "issue": "3",
+  "firstpage": "213",
+  "lastpage": "223",
+  "publication_date": "2026/9/20",
+  "online_date": "2026/11/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0017.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0017",
+  "research_area": [
+   "Electric Power Delivery",
+   "Energy System Integration"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0022",
+  "title": "Three-layer stacked PCB design of a low-voltage high-current inverter for motorsport applications",
+  "authors": [
+   "Diego Anchieri",
+   "Mattia Vogni",
+   "Danilo David",
+   "Mattia Ricco",
+   "Riccardo Mandrioli"
+  ],
+  "keywords": [
+   "Inverter",
+   "Two-level voltage source inverter",
+   "PCB design",
+   "MOSFET",
+   "DC-bus",
+   "Thermal design",
+   "Reliability"
+  ],
+  "abstract": "Motorsport applications demand highly efficient, compact, and reliable power conversion systems capable of withstanding extreme dynamic conditions. This study focuses on the design and evaluation of a custom inverter tailored for a race electric motorcycle, with the objective of optimizing performance, thermal behavior, and component reliability under mission-specific constraints. The hardware design process involved selecting suitable power devices, optimizing printed circuit board (PCB) layout for minimal parasitics, and integrating a compact cooling solution. A detailed thermal model was developed to predict temperature profiles under typical racing conditions. Additionally, a reliability assessment was conducted based on real mission profiles, with lifetime estimations performed for metal-oxide-semiconductor field-effect transistors (MOSFETs) using stress data extracted from simulations. The results show that by aligning the inverter design with the actual usage profile, it is possible to significantly reduce the overall system size and cost while maintaining the required performance and ensuring component lifetimes compatible with racing demands.",
+  "volume": "5",
+  "issue": "3",
+  "firstpage": "224",
+  "lastpage": "241",
+  "publication_date": "2026/9/20",
+  "online_date": "2026/11/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0022.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0022",
+  "research_area": [
+   "Electric Power Conversion"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0020",
+  "title": "A lightweight dynamic model of large-scale district heating networks for high-accuracy integrated energy system coordinated optimization",
+  "authors": [
+   "Dejun Shao",
+   "Jun Liu",
+   "Mengxuan Shi",
+   "Fei Xu",
+   "Lei Chen",
+   "Qun Chen",
+   "Ling Hao",
+   "Mujie Zhang",
+   "Feng Li"
+  ],
+  "keywords": [
+   "Large-scale district heating networks",
+   "Lightweight dynamic model",
+   "Coordinated optimization",
+   "Integrated energy systems",
+   "Heat-transportation contribution matrix"
+  ],
+  "abstract": "District heating networks (DHNs), due to their thermal storage capacity, can provide flexibility for integrated electricity and heat energy systems and improve wind power accommodation. However, the coordinated optimization of large-scale DHNs and integrated energy systems faces great challenges due to the large size and complexity of the DHN dynamic model. The combination of a single pipe’s dynamic equations and topological equations between pipes is so complex that the networks cannot be optimized globally; thus, only local optimization can be achieved. To improve the accuracy of coordinated optimization, this paper contributes to developing a lightweight dynamic model of a large-scale DHN based on the thermal-electrical analogy circuit model. First, a heat-transportation contribution matrix for each single pipe is proposed. Second, the matrix-form heat balance equations between pipes are established. Third, the temperature response between the DHN’s last outlet and the first inlet can be reflected by a coefficient matrix, which is obtained by multiplying all the heat-transportation contribution-matrix and heat balance matrices. Finally, a lightweight dynamic model of a large-scale DHN is established without any intermediate pipe variables. It is validated by the experiments, and the errors between the experimental and theoretical results are less than 5%.",
+  "volume": "5",
+  "issue": "3",
+  "firstpage": "242",
+  "lastpage": "254",
+  "publication_date": "2026/9/20",
+  "online_date": "2026/11/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0020.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0020",
+  "research_area": [
+   "Energy System Integration",
+   "Energy System for Residence"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0018",
+  "title": "Cost increase of power system low carbon transition considering climate risk",
+  "authors": [
+   "Haiyang Jiang",
+   "Jijun Shui",
+   "Zhifeng Liang",
+   "Ershun Du",
+   "Chongqing Kang"
+  ],
+  "keywords": [
+   "Power system planning",
+   "Renewable energy",
+   "High renewable penetration",
+   "Climate risk",
+   "Seasonal imbalance"
+  ],
+  "abstract": "Rapid renewable energy deployment driven by global decarbonization goals is accelerating worldwide. However, seasonal variability and evolving climate patterns pose great challenges to the long-term adequacy of power supply. This study focuses on the long-term climate risks associated with inadequate renewable supply. First, the climate risk is defined and quantified as the seasonal inadequacy of renewable supply. Then, the risk formulation is incorporated into the optimal planning model as a three-stage framework. Finally, a 2030 China-provincial case study is performed. The case results show that the climate-risk-aware planning scheme raises total system costs by approximately 0.5% but cuts expected load curtailment by nearly 40%. Additionally, residual climate risk is concentrated in a few coastal and southwestern provincial-level regions, primarily in winter, and in southern coastal regions in summer. The introduction of climate risk reshapes capacity portfolios, raises costs, and exposes seasonal reliability gaps in coastal areas.",
+  "volume": "5",
+  "issue": "3",
+  "firstpage": "255",
+  "lastpage": "268",
+  "publication_date": "2026/9/20",
+  "online_date": "2026/11/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0018.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0018",
+  "research_area": [
+   "Low Carbon Energy Technologies",
+   "Energy Economics, Policies and Strategies"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0015",
+  "title": "Review on accelerated degradation mechanisms of electrical insulation in power electronic equipment under the pulsed electric field",
+  "authors": [
+   "Dongxin He",
+   "Xiangze An",
+   "Cong Zhang",
+   "Qingfa Li",
+   "Gilbert Teyssedre",
+   "Qingquan Li"
+  ],
+  "keywords": [
+   "Pulsed electric field",
+   "Insulation degradation",
+   "Power electronic equipment",
+   "Charge dynamic behavior",
+   "Electromechanical stress"
+  ],
+  "abstract": "Due to prolonged exposure to pulsed voltage during operation, the insulation systems of power electronic equipment are susceptible to premature degradation and failure, which seriously affect the operation of the power system. Therefore, it is important to explore the accelerated degradation mechanisms of electrical insulation under the pulsed electric field. In this paper, the influence of different pulse voltage parameters on insulation degradation characteristics is first summarized. Then, the research progress of the degradation mechanisms of insulation under a pulsed electric field is explored from microscopic and macroscopic perspectives. Three degradation mechanisms, including the dynamic behavior of charges, electromechanical stress and air gap discharge, are revealed, whose microscopic essence is the difference in the response time of charged particles of different scales under a pulsed electric field. In addition, the weaknesses of the current research are also identified and discussed. This review provides a theoretical reference and guidance for the optimal design of insulation materials.",
+  "volume": "5",
+  "issue": "2",
+  "firstpage": "97",
+  "lastpage": "109",
+  "publication_date": "2026/6/20",
+  "online_date": "2026/5/13",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0015.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Review",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0015",
+  "research_area": [
+   "Energy Equipment"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0010",
+  "title": "Vortex-driven triboelectric nanogenerator for multidirectional wind energy collection with humidity resistance",
+  "authors": [
+   "Chuyan Zhang",
+   "Tianyuan Zhang",
+   "Geng Chen",
+   "Chuanyang Li",
+   "Xinyuan Li"
+  ],
+  "keywords": [
+   "Triboelectric nanogenerator",
+   "Vortex-induced vibration",
+   "Wind energy harvesting",
+   "Self-powered"
+  ],
+  "abstract": "Wind energy is an environmentally friendly and sustainable energy source that is abundantly available in nature. Wind energy collection devices based on triboelectric nanogenerators (TENGs) can efficiently collect distributed wind energy in the environment. In this work, we propose a TENG to collect wind energy based on the vortex-induced vibration effect. It consists of three parts: an octahedral base to encapsulate the TENG, a central axis and a cylindrical fan blade. Such a design improves the environmental tolerance of TENGs and allows them to collect wind energy from all directions. At a wind speed of 3.5 m/s, the average output power of the device was 49.5 μW under a 70 MΩ load resistance, while in a high-humidity environment, this value reached 45.5 μW. The device is capable of continuously powering small commercial electronic devices at a wind speed of 3.5 m/s, indicating its potential for urban distributed wind energy harvesting.",
+  "volume": "5",
+  "issue": "2",
+  "firstpage": "110",
+  "lastpage": "117",
+  "publication_date": "2026/6/20",
+  "online_date": "2026/5/13",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0010.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0010",
+  "research_area": [
+   "Energy Harvesting",
+   "Wind Energy"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0013",
+  "title": "Secured multilevel transactive energy market: Electrical-communication co-simulation",
+  "authors": [
+   "Hossein Chabok",
+   "Ali Moeini",
+   "Innocent Kamwa"
+  ],
+  "keywords": [
+   "ADMM",
+   "Blockchain technology",
+   "Electricity market",
+   "Transactive energy",
+   "Transmission-distribution grid",
+   "Peer-to-peer transactions"
+  ],
+  "abstract": "Despite growing interest in decentralized multilevel energy markets, challenges persist in security, privacy, and coordination among distributed energy resource operators (DEROs), distribution system operators (DSOs), and transmission system operators (TSOs). Current approaches often rely on centralized structures and lack a unified optimization and communication framework. Hence, this paper proposes a decentralized transactive energy architecture for interconnected transmission–distribution networks, structured as a multilevel electricity market (MLEM). DEROs engage in peer-to-peer (P2P) transactions at the distribution level, while DSOs and TSOs coordinate grid-level operations through a hierarchical optimization structure. A nested ADMM-based algorithm is introduced, where an inner loop computes P2P exchanges in closed form and an outer loop enables decentralized coordination across the hierarchy. A blockchain security layer with a PoS-inspired validator-selection mechanism ensures data integrity, and the communication process is evaluated using an NS-3 wireless network model. The framework is tested on a combined 9-bus transmission and two 15-bus distribution networks. The method reaches consensus in 37 outer and 238 inner iterations; the 1-hour horizon solves in 66.98 s, with only an 8.35% increase for 24 h. TSO–DSO schedules converge within 1% accuracy, and the blockchain maintains a stable 1-second block. The results confirm reliable convergence and consistent communication performance.",
+  "volume": "5",
+  "issue": "2",
+  "firstpage": "118",
+  "lastpage": "133",
+  "publication_date": "2026/6/20",
+  "online_date": "2026/5/13",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0013.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0013",
+  "research_area": [
+   "Digital Energy Systems",
+   "Energy Economics, Policies and Strategies"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0014",
+  "title": "Surface discharge behavior and simulation analysis of transformer oils with varying hydrocarbon compositions",
+  "authors": [
+   "Jianning Chen",
+   "Yuanxiang Zhou",
+   "Guimin Jiang",
+   "Huanchao Cheng",
+   "Xiaokang Wu",
+   "Yanyan Bao"
+  ],
+  "keywords": [
+   "Hydrocarbon compositions",
+   "Surface discharge",
+   "White mark",
+   "DFT",
+   "Numerical simulation"
+  ],
+  "abstract": "The rapid development of ultra-high voltage direct current (UHVDC) transmission has sharply increased the demand for high-performance insulating oils. However, the limited supply of premium naphthenic oils such as KI50X necessitates viable alternatives. This study compares the surface discharge behavior of three transformer oils with distinct hydrocarbon compositions, namely, a low-aromatic naphthenic oil (N-LA), a high-aromatic naphthenic oil (N-HA), and a paraffin-based oil (P-LA), in oil–pressboard insulation systems. A synchronized platform was built to monitor partial discharge (PD) activity and white mark formation under AC stress. A digital workflow was developed to extract the geometric and intensity features of white marks. Density functional theory (DFT) was used to analyze the ionization energy and Fukui index distributions of representative hydrocarbons. The proposed mechanisms were validated using a finite element method–cellular automata (FEM–CA) simulation. Two discharge modes were observed: N-LA exhibited stable, low-voltage surface discharges (~19 kV) with sustained white mark growth, and N-HA and P-LA exhibited streamer discharges in bulk oil above 30 kV. Aromatics suppress discharge inception by homogenizing local fields via space charge and scavenging radicals through reactive hydrogen sites. In contrast, paraffins in P-LA enhanced dielectric strength but promoted gas formation once PD began.",
+  "volume": "5",
+  "issue": "2",
+  "firstpage": "134",
+  "lastpage": "147",
+  "publication_date": "2026/6/20",
+  "online_date": "2026/5/13",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0014.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0014",
+  "research_area": [
+   "Energy Equipment"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0011",
+  "title": "Reliability improvement based on optimized modulations and rotating shedding frequency in modular DAB EV chargers",
+  "authors": [
+   "Jiayi Geng",
+   "Riccardo Mandrioli",
+   "Ariya Sangwongwanich",
+   "Mattia Ricco"
+  ],
+  "keywords": [
+   "Backflow power",
+   "Dual-active bridge",
+   "EV charging",
+   "Peak current",
+   "Power sharing strategy",
+   "Reliability"
+  ],
+  "abstract": "Modular dual-active-bridge (DAB) converter is widely used for fast electric vehicle (EV) charging due to galvanic isolation and high power processing capability. However, the increasing high power demand for EV chargers introduces new challenges in ensuring the high reliability of power conversion systems. Various modulation techniques for DAB, such as single-phase-shift (SPS), extended-phase-shift (EPS), and dual-phase-shift (DPS), have been proposed, while the combined impact of these techniques and power sharing strategies on reliability remains underexplored. Therefore, this paper presents a comparative reliability evaluation of SPS, EPS, and DPS under the optimization schemes of minimum backflow power and peak current, along with the power sharing strategies of even sharing and module shedding with and without rotation. The results show that appropriate combinations where DPS with minimum peak current under module shedding with a rotation strategy achieve the best balance between efficiency and reliability. Furthermore, the investigation of the trade-off between rotation frequency and system-level reliability shows that high-frequency rotation leads to excessive thermal cycling and reduces the lifetime, which provides a new guideline for optimizing module shedding for increased reliability performance.",
+  "volume": "5",
+  "issue": "2",
+  "firstpage": "148",
+  "lastpage": "162",
+  "publication_date": "2026/6/20",
+  "online_date": "2026/5/13",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0011.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0011",
+  "research_area": [
+   "Electric Power Conversion",
+   "Energy System for Transportation"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0012",
+  "title": "A data-driven rapidly predictive identification method for the sub/super-synchronous oscillation dominant frequency of the new energy power system",
+  "authors": [
+   "Chongru Liu",
+   "Lingran Kong",
+   "Chenbo Su",
+   "Jiashu Fang",
+   "Le Zheng",
+   "Aobing Li"
+  ],
+  "keywords": [
+   "Artificial intelligence",
+   "Dominant frequency",
+   "Interpretability",
+   "Power system",
+   "Sub/super-synchronous oscillation",
+   "Transfer learning"
+  ],
+  "abstract": "The sub/super-synchronous oscillation caused by the interaction between renewable energy generation and the power grid seriously affects the stability of the power system. A data-driven rapidly predictive identification method for the dominant oscillation frequency of sub/super-synchronous oscillation is proposed in this paper. The proposed method collects short-term operational data within the oscillation initiation process to predictively identify the dominant frequency when the oscillation presents a relatively stable periodic trajectory, which provides an information basis for the rapid suppression of oscillation. To solve the problem that sub/super-synchronous oscillation data is difficult to obtain, a transfer-learning based approach is developed to transfer knowledge learned in the forced oscillation domain to the sub/super-synchronous oscillation domain. Additionally, residual connection modules, non-local modules, and channel attention modules are introduced into the proposed model architecture, enhancing the model’s predictive identification accuracy. Moreover, a weight propagation process is implemented to obtain the weight distribution of electrical channels, enhancing the interpretability of the model. Finally, the proposed method is verified via simulations and measured oscillation data. The results show that the method has high accuracy, strong interpretability, and generality.",
+  "volume": "5",
+  "issue": "2",
+  "firstpage": "163",
+  "lastpage": "172",
+  "publication_date": "2026/6/20",
+  "online_date": "2026/5/13",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0012.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0012",
+  "research_area": [
+   "Power System Operation and Control",
+   "Digital Energy Systems"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0009",
+  "title": "The world’s first hybrid commutated converter has achieved commercial commissioning",
+  "authors": [
+   "Xuejiao Han",
+   "Lu Qu",
+   "Biao Zhao"
+  ],
+  "keywords": [],
+  "abstract": "",
+  "volume": "5",
+  "issue": "1",
+  "firstpage": "1",
+  "lastpage": "1",
+  "publication_date": "2026/3/20",
+  "online_date": "2026/4/17",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0009.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "News & Views",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0009",
+  "research_area": [
+   "Electric Power Delivery"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0005",
+  "title": "A programmable frequency scan algorithm based on harmonic balance",
+  "authors": [
+   "Lu Miao",
+   "Wenyan Jia",
+   "Jinchang Chen",
+   "Yang Yi",
+   "Shun Li",
+   "Qirong Jiang",
+   "Chongbin Zhao"
+  ],
+  "keywords": [
+   "Frequency scan",
+   "Nonlinear time-periodic system",
+   "Impedance model",
+   "Harmonic balance",
+   "Stability analysis"
+  ],
+  "abstract": "This paper presents a programmable frequency scan algorithm based on harmonic balance. The core idea involves treating systems under perturbation as nonlinear time-periodic (NTP) systems. Steady-state harmonics are first solved via Newton‒Raphson iteration through a set of nonlinear equations, and then input-output variables are selected to estimate the linear transfer function of the original NTP system without perturbations. The applications and insights of the proposed algorithm are discussed, particularly in guiding existing frequency scan algorithms, which are restricted by time-domain signal generation or measurement. This improvement is achieved through linear stability analysis of NTP systems with perturbations.",
+  "volume": "5",
+  "issue": "1",
+  "firstpage": "2",
+  "lastpage": "6",
+  "publication_date": "2026/3/20",
+  "online_date": "2026/4/17",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0005.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Letter",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0005",
+  "research_area": [
+   "Power System Operation and Control"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0004",
+  "title": "Dynamic virtual power plants: A comprehensive review of architectures, control strategies, and grid support capabilities",
+  "authors": [
+   "Navid Vafamand",
+   "Abbas Rabiee",
+   "Innocent Kamwa"
+  ],
+  "keywords": [
+   "Dynamic virtual power plants (DVPPs)",
+   "Inverter-based resources (IBRs)",
+   "Distributed energy resources (DERs)",
+   "Disaggregation techniques",
+   "Control of DERs"
+  ],
+  "abstract": "The increasing penetration of inverter-based resources (IBRs) and renewable energy resources poses significant challenges to the stability and controllability of modern power systems. Dynamic virtual power plants (DVPPs) have emerged as a transformative solution for aggregating and controlling heterogeneously distributed energy resources (DERs) flexibly and dynamically. This paper presents a comprehensive review of DVPPs, covering their conceptual evolution—from microgrids to virtual power plants (VPPs) and fast-acting VPPs—culminating in the dynamic DVPP paradigm. This review explores key architectural frameworks, including grid-forming and grid-following roles, as well as AC/DC interfacing strategies. Emphasis is placed on secondary frequency and voltage control mechanisms, dynamic-based and market-based disaggregation, and control methodologies tailored to DERs.",
+  "volume": "5",
+  "issue": "1",
+  "firstpage": "7",
+  "lastpage": "21",
+  "publication_date": "2026/3/20",
+  "online_date": "2026/4/17",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0004.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Review",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0004",
+  "research_area": [
+   "Power System Operation and Control",
+   "Energy System Integration"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0001",
+  "title": "Power system carbon emission flow analysis considering multiple operating conditions for power sources",
+  "authors": [
+   "Chen Yang",
+   "Yaowang Li",
+   "Yuliang Liu",
+   "Yuan Leng",
+   "Zhilin Lu",
+   "Rongfeng Deng",
+   "Ning Zhang"
+  ],
+  "keywords": [
+   "Power system carbon emission flow",
+   "Gas turbine",
+   "Coal-fired power plant",
+   "Operating conditions",
+   "Power source carbon emission",
+   "Energy consumption model"
+  ],
+  "abstract": "The real-time and accurate calculation of electricity indirect carbon emissions is not only the critical component for quantifying the carbon emission levels of the power system but also an effective mean to guide electricity users in carbon reduction and promote power industry low-carbon transformation. Fundamentally, calculating indirect carbon emissions involves allocating direct carbon emission data from the power source side, indicating that accurate indirect emission results rely on the precise measurement of power source emissions. However, existing research on indirect carbon emissions in large-scale power systems rarely accounts for variations in carbon emission characteristics under different operating conditions of power sources, such as rated/non-rated operating conditions and ramping up/down conditions, making it difficult to reflect source-side and load-side carbon emission information variation during providing ancillary services. Quadratic and exponential functions are proposed to characterize the energy consumption profiles of coal-fired and gas-fired power generation, respectively, to construct a refined carbon emission model for power sources. By leveraging the theory of power system carbon flow, we analyze how variable operating conditions of power sources impact indirect carbon emissions. Case studies demonstrate that changes in power source emissions under variable conditions have a significant effect on the indirect carbon emissions of power grids.",
+  "volume": "5",
+  "issue": "1",
+  "firstpage": "22",
+  "lastpage": "29",
+  "publication_date": "2026/3/20",
+  "online_date": "2026/4/17",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0001.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0001",
+  "research_area": [
+   "Low Carbon Energy Technologies"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0002",
+  "title": "An intra-string distributed and inter-string decentralized control method for hybrid series-parallel microgrids",
+  "authors": [
+   "Xiaochao Hou",
+   "Jiatong He",
+   "Changgeng Li",
+   "Zexiong Wei",
+   "Kai Sun",
+   "Yunwei Li"
+  ],
+  "keywords": [
+   "Hybrid series-parallel microgrid",
+   "Distributed control",
+   "Decentralized control",
+   "Power inverter"
+  ],
+  "abstract": "The hybrid series-parallel microgrid attracts more attention by combining the advantages of both the series-stacked voltage and parallel-expanded capacity. Low-voltage distributed generations (DGs) are connected in series to form the intra-string, and then multiple strings are interconnected in parallel. For the existing control strategies, both intra-string and inter-string depend on the centralized or distributed control with high communication reliance. It has limited scalability and redundancy under abnormal conditions. Alternatively, in this study, an intra-string distributed and inter-string decentralized control framework is proposed. Within the string, a few DGs close to the AC bus are the leaders to get the string power information and the rest DGs are the followers to acquire the synchronization information through the droop-based distributed consistency. Specifically, the output of the entire string has the active power−angular frequency ( ω−P) droop characteristic, and the decentralized control among strings can be autonomously guaranteed. Moreover, the secondary control is designed to realize multi-mode objectives, including on/off-grid mode switching, grid-connected power interactive management, and off-grid voltage quality regulation. As a result, the proposed method has the ability of plug-and-play capabilities, single-point failure redundancy, and seamless mode-switching. Experimental results are provided to verify the effectiveness of the proposed practical solution.",
+  "volume": "5",
+  "issue": "1",
+  "firstpage": "30",
+  "lastpage": "42",
+  "publication_date": "2026/3/20",
+  "online_date": "2026/4/17",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0002.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0002",
+  "research_area": [
+   "Energy System Integration",
+   "Power System Operation and Control"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0003",
+  "title": "Flexible resource allocation for power systems to maximize diversified values in resilience, carbon reduction and renewable energy consumption",
+  "authors": [
+   "Zhaohong Bie",
+   "Yiheng Bian",
+   "Chenxing Yang"
+  ],
+  "keywords": [
+   "Multi-objective planning",
+   "Power system",
+   "Carbon reduction",
+   "Resilience",
+   "Flexible resource"
+  ],
+  "abstract": "The energy transition inspired by carbon neutrality targets and the increasing threat of extreme events raise multi-objective development requirements for power systems. This paper proposes a multi-objective resource allocation model to determine the type, number and location of flexible resources to increase the values of resilience, carbon reduction and renewable energy consumption. To evaluate the values of resilience, a restoration model for transmission systems is established that considers the coordination of fossil-fuel generators, energy storage systems (ESSs) and renewable energy generators in building restoration paths. The collaborative power-carbon-tradable green certificate (TGC) market model is then applied to evaluate the resource values in terms of carbon reduction and renewable energy consumption. Finally, the model is formulated as a mixed-integer linear programming (MILP) with a nonconvex feasible domain, and the normalized normal constraint (NNC) method is applied to obtain approximate Pareto frontiers for decision makers. Case studies validate the effectiveness of the proposed model in improving multi-factor values and analyze the impact of resource regulation capacity on values of restoration and carbon reduction.",
+  "volume": "5",
+  "issue": "1",
+  "firstpage": "43",
+  "lastpage": "54",
+  "publication_date": "2026/3/20",
+  "online_date": "2026/4/17",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0003.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0003",
+  "research_area": [
+   "Low Carbon Energy Technologies",
+   "Power System Operation and Control"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0006",
+  "title": "Dependable dynamic capacity provision of wind-storage plants",
+  "authors": [
+   "Ziqi Shen",
+   "Wei Wei",
+   "Zhongjie Guo",
+   "Laijun Chen",
+   "Shengwei Mei"
+  ],
+  "keywords": [
+   "Wind power",
+   "Energy storage",
+   "Dynamic capacity provision",
+   "Real-time operation"
+  ],
+  "abstract": "Although wind energy is volatile, the output of a wind-storage plant is partially dispatchable, making it a promising paradigm on the generation side. A grid-friendly wind-storage plant ought to be able to continuously output the desired power over a certain period of time. This paper proposes a dependable dynamic capacity provision scheme of a wind-storage plant over a daily horizon. It stipulates a minimum number of periods during which the committed capacity must be fulfilled and a maximum mismatch during the remaining periods when the desired power output is not achievable. In the general case, the day-ahead piecewise constant capacity provision results in a two-stage stochastic program formulated as a mixed-integer linear program. Specifically, for constant capacity provision, a decomposition algorithm is developed to determine the global optimal solution, and the complexity grows linearly with the number of scenarios. Given the committed capacity trajectory, the real-time operation problem is modeled as a four-state stochastic dynamic program. The discrete state-action values are derived recursively via the principle of optimality. Real-time dispatch actions are generated by using the action-value tabular leveraging inexact ultra-short-term forecasts. Numerical tests over one year demonstrate that the proposed method successfully fulfills reliable operation on 355 days and achieve an optimality gap of 9.47% compared with the ex-post optimum, which is comparable to model predictive control using exact 2–3-hour-ahead wind power forecasts.",
+  "volume": "5",
+  "issue": "1",
+  "firstpage": "55",
+  "lastpage": "70",
+  "publication_date": "2026/3/20",
+  "online_date": "2026/4/17",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0006.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0006",
+  "research_area": [
+   "Wind Energy",
+   "Energy Storage"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0008",
+  "title": "Short-term photovoltaic output prediction based on spatial downscaling NWP data and CNN-iTransformer-LSTM model",
+  "authors": [
+   "Zhewen Hu",
+   "Ligang Du",
+   "Xin Zhang",
+   "Lei Zhang",
+   "Wei Hu"
+  ],
+  "keywords": [
+   "Photovoltaic power output prediction",
+   "Spatial downscaling",
+   "CNN-iTransformer-LSTM",
+   "Rime optimization random forest regression"
+  ],
+  "abstract": "To enhance the accuracy of short-term photovoltaic power output prediction and address issues such as insufficient spatial resolution of meteorological forecast data and weak generalization ability of models, this paper proposes a prediction method that integrates spatial downscaling meteorological data with a convolutional neural network (CNN)-iTransformer-long short-term memory (LSTM) model. First, the rime-optimized random forest regression algorithm (RIME-RF) is employed to perform spatial downscaling on numerical weather prediction (NWP) data, thereby improving its local applicability. Second, a CNN-iTransformer-LSTM hybrid prediction model is constructed. This model utilizes a CNN as a spatial feature extractor to capture local patterns in meteorological data, employs an iTransformer to model the global dependencies among multiple variables, and leverages an LSTM to enhance the learning of short-term temporal dynamic features, thereby achieving efficient collaborative mining of multi-scale features. Finally, experiments are conducted using actual data from a photovoltaic power station in Hebei, China, during various seasons and weather conditions. The results show that the proposed model outperforms the comparison models in terms of the root mean square error (RMSE), mean absoluteerror (MAE), and R2, maintaining high prediction accuracy and stability even under complex weather conditions such as overcast and rainy days. The downscaling process further enhances the prediction performance, verifying the effectiveness and practicality of this method.",
+  "volume": "5",
+  "issue": "1",
+  "firstpage": "71",
+  "lastpage": "86",
+  "publication_date": "2026/3/20",
+  "online_date": "2026/4/17",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0008.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0008",
+  "research_area": [
+   "Solar Energy",
+   "Digital Energy Systems"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2026.0007",
+  "title": "Propagation characteristics of pressure waves caused by arc discharge in oil under impulse voltage",
+  "authors": [
+   "Yuhang Li",
+   "Yuanxiang Zhou",
+   "Junguang Yin",
+   "Jianning Chen"
+  ],
+  "keywords": [
+   "Transformer oil",
+   "Impulse discharge",
+   "Pressure wave",
+   "Propagation",
+   "Liquid−solid interface"
+  ],
+  "abstract": "Arc faults within the transformers can generate sudden pressure surges, constituting significant hazards that may precipitate oil tank explosions and severely compromise power system stability. Conventional power−frequency arc discharge experiments encounter limitations in isolating pressure wave characteristics due to persistent gas generation and arc reignition. To circumvent these challenges, an oil-immersed impulse voltage discharge platform was conceived and engineered to investigate pressure wave propagation dynamics. A pressure numerical simulation model and theoretical model of oil−solid interface reflection and refraction were subsequently established to elucidate the pressure propagation mechanism. The experimental and simulation results show that the pressure wave generated by pulsed arc discharge in oil propagates radially in the form of spherical waves. Due to the viscous loss and wave front expansion of transformer oil, the peak pressure decays exponentially with distance, with a decay coefficient β = 1.15. When pressure waves encounter metal obstacles inside transformer oil, there are two propagation paths: direct transmission through and multiple reflections through, and a mode transformation of pressure waves occurs at the oil−solid interface, mainly propagating through obstacles in the form of transverse waves. This work quantitatively delineates the energy pressure wave coupling, propagation dynamics, and attenuation mechanisms, providing critical insights for assessing and mitigating arc fault-induced transformer explosion risks.",
+  "volume": "5",
+  "issue": "1",
+  "firstpage": "87",
+  "lastpage": "96",
+  "publication_date": "2026/3/20",
+  "online_date": "2026/4/17",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2026.0007.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2026,
+  "url": "https://doi.org/10.23919/IEN.2026.0007",
+  "research_area": [
+   "Energy Equipment"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0025",
+  "title": "Problem-structure-informed quantum approximate optimization for large-scale unit commitment with limited qubits",
+  "authors": [
+   "Jingxian Zhou",
+   "Ziqing Zhu",
+   "Linghua Zhu",
+   "Siqi Bu"
+  ],
+  "keywords": [
+   "Unit commitment problem",
+   "quadratic unconstrained binary optimization",
+   "quantum approximate optimization algorithm"
+  ],
+  "abstract": "As power systems expand, solving the unit commitment problem (UCP) becomes increasingly challenging due to the curse of dimensionality, and traditional methods often struggle to balance computational efficiency and solution optimality. To tackle this issue, we propose a problem-structure-informed quantum approximate optimization algorithm (QAOA) framework that fully exploits the quantum advantage under extremely limited quantum resources. Specifically, we leverage the inherent topological structure of power systems to decompose large-scale UCP instances into smaller subproblems, which are solvable in parallel by limited number of qubits. This decomposition not only circumvents the current hardware limitations of quantum computing but also achieves higher performance as the graph structure of the power system becomes more sparse. Consequently, our approach can be extended to future power systems that are larger and more complex.",
+  "volume": "4",
+  "issue": "4",
+  "firstpage": "215",
+  "lastpage": "218",
+  "publication_date": "2025/12/20",
+  "online_date": "2025/10/27",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0025.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Letter",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0025",
+  "research_area": [
+   "Power System Operation and Control",
+   "Digital Energy Systems"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0024",
+  "title": "Frequency-fixed grid-forming control for less-dynamic and safer renewable power systems",
+  "authors": [
+   "Yong Min",
+   "Zhenyu Lei",
+   "Lei Chen",
+   "Fei Xu",
+   "Boyuan Zhao",
+   "Zongxiang Lu",
+   "Ling Hao"
+  ],
+  "keywords": [
+   "Converter interfaced generation",
+   "grid-forming control",
+   "frequency stability",
+   "active power control",
+   "synchronization stability",
+   "renewable power system"
+  ],
+  "abstract": "Grid-forming (GFM) control is a key technology for ensuring the safe and stable operation of renewable power systems dominated by converter-interfaced generation (CIG), including wind power, photovoltaic, and battery energy storage. In this paper, we challenge the traditional approach of emulating a synchronous generator by proposing a frequency-fixed GFM control strategy. The CIG endeavors to regulate itself as a constant voltage source without control dynamics due to its capability limitation, denoted as the frequency-fixed zone. With the proposed strategy, the system frequency is almost always fixed at its rated value, achieving system active power balance independent of frequency, and intentional power flow adjustments are implemented through direct phase angle control. This approach significantly reduces the frequency dynamics and safety issues associated with frequency variations. Furthermore, synchronization dynamics are significantly diminished, and synchronization stability is enhanced. The proposed strategy has the potential to realize a renewable power system with a fixed frequency and robust stability.",
+  "volume": "4",
+  "issue": "4",
+  "firstpage": "219",
+  "lastpage": "234",
+  "publication_date": "2025/12/20",
+  "online_date": "2025/10/27",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0024.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0024",
+  "research_area": [
+   "Power System Operation and Control",
+   "Electric Power Conversion"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0026",
+  "title": "Blockchain for transactive energy management in networked neighborhood microgrids",
+  "authors": [
+   "Zhikun Hu",
+   "Mingyu Yan",
+   "Chongyu Wang",
+   "Ahmed Alabdulwahab",
+   "Mohammad Shahidehpour"
+  ],
+  "keywords": [
+   "Networked neighborhood microgrids",
+   "blockchain system",
+   "transactive energy management",
+   "power distribution system",
+   "distributed energy resources"
+  ],
+  "abstract": "The proliferation of distributed and renewable energy resources introduces additional operational challenges to power distribution systems. Transactive energy management, which allows networked neighborhood communities and houses to trade energy, is expected to be developed as an effective method for accommodating additional uncertainties and security mandates pertaining to distributed energy resources. This paper proposes and analyzes a two-layer transactive energy market in which houses in networked neighborhood community microgrids will trade energy in respective market layers. This paper studies the blockchain applications to satisfy socioeconomic and technological concerns of secure transactive energy management in a two-level power distribution system. The numerical results for practical networked microgrids located at IllinoisTech−Bronzeville in Chicago illustrate the validity of the proposed blockchain-based transactive energy management for devising a distributed, scalable, efficient, and cybersecured power grid operation. The conclusion of the paper summarizes the prospects for blockchain applications to transactive energy management in power distribution systems.",
+  "volume": "4",
+  "issue": "4",
+  "firstpage": "235",
+  "lastpage": "246",
+  "publication_date": "2025/12/20",
+  "online_date": "2025/11/13",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0026.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0026",
+  "research_area": [
+   "Digital Energy Systems",
+   "Energy System Integration"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0027",
+  "title": "Do we actually understand the impact of renewables on electricity prices? A causal inference approach",
+  "authors": [
+   "Davide Cacciarelli",
+   "Pierre Pinson",
+   "Filip Panagiotopoulos",
+   "David Dixon",
+   "Lizzie Blaxland"
+  ],
+  "keywords": [
+   "Causal inference",
+   "electricity prices",
+   "renewable energy",
+   "wind power",
+   "solar power",
+   "double machine learning"
+  ],
+  "abstract": "Understanding how renewable energy generation affects electricity prices is essential for designing efficient and sustainable electricity markets. However, most existing studies rely on regression-based approaches that capture correlations but fail to identify causal relationships, particularly in the presence of non-linearities and confounding factors. This limits their value for informing policy and market design in the context of the energy transition. To address this gap, we propose a novel causal inference framework based on local partially linear double machine learning (DML). Our method isolates the true impact of predicted wind and solar power generation on electricity prices by controlling for high-dimensional confounders and allowing for non-linear, context-dependent effects. This represents a substantial methodological advancement over standard econometric techniques. Applying this framework to the UK electricity market over the period 2018–2024, we produce the first robust causal estimates of how renewables affect day-ahead wholesale electricity prices. We find that wind power exerts a U-shaped causal effect: at low penetration levels, a 1 GWh increase reduces prices by up to £7/MWh, the effect weakens at mid-levels, and intensifies again at higher penetration. Solar power consistently reduces prices at low penetration levels, up to £9/MWh per additional GWh, but its marginal effect diminishes quickly. Importantly, the magnitude of these effects has increased over time, reflecting the growing influence of renewables on price formation as their share in the energy mix rises. These findings offer a sound empirical basis for improving the design of support schemes, refining capacity planning, and enhancing electricity market efficiency. By providing a robust causal understanding of renewable impacts, our study contributes both methodological innovation and actionable insights to guide future energy policy.",
+  "volume": "4",
+  "issue": "4",
+  "firstpage": "247",
+  "lastpage": "258",
+  "publication_date": "2025/12/20",
+  "online_date": "2025/11/6",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0027.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0027",
+  "research_area": [
+   "Energy Economics, Policies and Strategies",
+   "Low Carbon Energy Technologies"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0021",
+  "title": "Reactive voltage support strategy for droop-controlled grid-forming converters based on LADRC",
+  "authors": [
+   "Dejian Yang",
+   "Zhijie Cao",
+   "Chaoquan Li"
+  ],
+  "keywords": [
+   "Grid-forming control",
+   "linear active disturbance rejection control",
+   "reactive power support",
+   "low-voltage ride-through"
+  ],
+  "abstract": "To enhance the low-voltage ride-through (LVRT) capability of emerging power systems with increasing penetration of renewable energy while addressing issues such as the slow response speed of traditional proportional-integral (PI) control, high model accuracy requirements, and complex system parameter tuning, this paper proposes a droop-controlled converter reactive power support strategy based on first-order linear active disturbance rejection control (LADRC). First, a mathematical model of a droop-controlled grid-forming (GFM) converter is established. A model equivalence method is then proposed to transform the dynamic characteristics of the control loop into equivalent impedance parameters. Based on the equivalent impedance parameter model, the influencing factors of the converter terminal voltage and point of common coupling (PCC) voltage are derived. Next, a first-order linear active disturbance rejection control strategy is introduced into the traditional droop control framework, and the controller parameters are optimized via the bandwidth tuning method. Finally, a simulation model of the droop-controlled GFM converter based on the linear active disturbance rejection controller is constructed on the PSCAD/EMTDC platform, and through comparative experiments under typical grid fault conditions, the effectiveness of the proposed control strategy in improving the system fault ride-through capability and voltage support is verified.",
+  "volume": "4",
+  "issue": "4",
+  "firstpage": "259",
+  "lastpage": "268",
+  "publication_date": "2025/12/20",
+  "online_date": "2025/10/27",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0021.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0021",
+  "research_area": [
+   "Electric Power Conversion",
+   "Power System Operation and Control"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0028",
+  "title": "A fast configuration method for external cooling system of power transformer considering energy loss",
+  "authors": [
+   "Lujia Wang",
+   "Mengzhi Sun",
+   "Zhenlu Cai",
+   "Haitao Yang",
+   "Xibo Wu"
+  ],
+  "keywords": [
+   "Power transformer",
+   "oil temperature difference",
+   "radiator",
+   "thermal efficiency",
+   "air pressure drop"
+  ],
+  "abstract": "Radiator cooling configurations need to account for both efficient heat dissipation and energy conservation requirements. Rapid and rational determination of cooling system configurations constitutes a critical aspect of transformer design, enhancing electrical power energy utilization efficiency. Computational fluid dynamics (CFD) is widely recognized as a well-established technique for simulating and optimizing heat dissipation systems. However, this approach is time-consuming because of pre-processing procedures, such as meshing. This paper proposes a fast iterative optimization model for calculating the outlet oil temperature and airflow distribution. Based on the analytical model results, this paper identifies the optimal energy-saving range for radiator cooling configurations, incorporating the cooperative effects of cooling efficiency, air pressure drop during heat transfer, and inlet–outlet temperature difference. The analytical model demonstrated errors in energy dissipation and temperature difference calculations within an acceptable range. The calculation time was reduced by more than 99%. Radiator configurations within the optimal range effectively minimize energy waste while meeting the target temperature difference and enhancing cooling efficiency. Finally, the PC2600-22/520 radiator was utilized to validate the accuracy of the analytical model and the rationality of the co-optimal intervals.",
+  "volume": "4",
+  "issue": "4",
+  "firstpage": "269",
+  "lastpage": "277",
+  "publication_date": "2025/12/20",
+  "online_date": "2025/11/6",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0028.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0028",
+  "research_area": [
+   "Energy Equipment"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0023",
+  "title": "Stackelberg game-based interactive operation strategy for energy-intensive industrial users",
+  "authors": [
+   "Jianpei Han",
+   "Xuehao He",
+   "Ershun Du",
+   "Yihan Guo"
+  ],
+  "keywords": [
+   "Interactive operation strategy",
+   "joint electricity‒carbon markets",
+   "load aggregator",
+   "energy-intensive industrial users",
+   "Stackelberg game"
+  ],
+  "abstract": "With increasing awareness of environmental protection and rising carbon emission costs, participation in electricity and carbon markets for energy-intensive industrial users will become an effective way to reduce operating costs and carbon emissions. In this regard, a novel Stackelberg game framework is developed in this study for coordinated participation in coupled electricity‒carbon markets. Specifically, generalized carbon emission models and electricity consumption models for different energy-intensive industrial users are established, and a Stackelberg game-based interactive operation strategy is proposed for load aggregators (LAs) and energy-intensive industrial users in joint electricity‒carbon markets, where the LA works as a leader who chooses proper interactive prices to maximize the comprehensive benefit, whereas energy-intensive industrial users serve as followers who minimize the total energy costs in response to the interactive prices set by the LA. Then, the existence and uniqueness of the Stackelberg equilibrium (SE) are analyzed, and a decentralized solution algorithm is suggested to reach the SE. Finally, the simulation results demonstrate that the proposed interactive operation strategy can not only increase the profit of the LA but also reduce the cost of energy-intensive industrial users, which achieves a win-win result.",
+  "volume": "4",
+  "issue": "4",
+  "firstpage": "278",
+  "lastpage": "289",
+  "publication_date": "2025/12/20",
+  "online_date": "2025/10/27",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0023.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0023",
+  "research_area": [
+   "Energy System for Industry",
+   "Energy Economics, Policies and Strategies"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0015",
+  "title": "Energy storage configuration model for reliability services of active distribution networks",
+  "authors": [
+   "Yaqi Sun",
+   "Wenchuan Wu",
+   "Yue Zhou",
+   "Haotian Zhao",
+   "Shuwei Xu",
+   "Qi Wang"
+  ],
+  "keywords": [
+   "Distribution network",
+   "energy storage",
+   "game theory",
+   "reliability"
+  ],
+  "abstract": "The volatility introduced by the integration of renewable energy poses challenges to the reliability of power supply, increasing the demand for energy storage in distribution networks. Shared energy storage in distribution networks can participate in energy storage allocation as a provider of reliability ancillary services. This paper proposes a novel Nash bargaining based energy storage coordinated allocation method to fully incentivize shared energy storage to participate in reliability services within the distribution network. First, an analytical reliability assessment model is constructed and embedded into the energy storage allocation model, where the impact of renewable energy uncertainty is described using chance constraints. Considering the interests of both the distribution network and shared energy storage operators, a Nash bargaining based energy storage coordinated allocation and benefit sharing mechanism is established, which is then transformed into a mixed-integer linear programming (MILP) model for efficient solution. Case studies show that the proposed method, through cooperation between the distribution system operator and shared energy storage operators, significantly reduces investment cost of energy storage and ensures a rational distribution of the benefits obtained.",
+  "volume": "4",
+  "issue": "3",
+  "firstpage": "149",
+  "lastpage": "156",
+  "publication_date": "2025/9/20",
+  "online_date": "2025/9/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0015.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0015",
+  "research_area": [
+   "Energy Storage",
+   "Electric Power Delivery"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0016",
+  "title": "Stability assessment of inverter-dominated power systems considering coupling between phase angle and voltage dynamics",
+  "authors": [
+   "Cong Fu",
+   "Shuiping Zhang",
+   "Shun Li",
+   "Feng Liu"
+  ],
+  "keywords": [
+   "Power system stability",
+   "dynamic coupling",
+   "inverter-interfaced device",
+   "stability criteria",
+   "phase angle dynamics",
+   "voltage dynamics"
+  ],
+  "abstract": "The integration of renewable energy sources (RESs) with inverter interfaces has fundamentally reshaped power system dynamics, challenging traditional stability analysis frameworks designed for synchronous generator-dominated grids. Conventional classifications, which decouple voltage, frequency, and rotor angle stability, fail to address the emerging strong voltage‒angle coupling effects caused by RES dynamics. This coupling introduces complex oscillation modes and undermines system robustness, necessitating novel stability assessment tools. Recent studies focus on eigenvalue distributions and damping redistribution but lack quantitative criteria and interpretative clarity for coupled stability. This work proposes a transient energy-based framework to resolve these gaps. By decomposing transient energy into subsystem-dissipated components and coupling-induced energy exchange, the method establishes stability criteria compatible with a broad variety of inverter-interfaced devices while offering an intuitive energy-based interpretation for engineers. The coupling strength is also quantified by defining the relative coupling strength index, which is directly related to the transient energy interpretation of the coupled stability. Angle‒voltage coupling may induce instability by injecting transient energy into the system, even if the individual phase angle and voltage dynamics themselves are stable. The main contributions include a systematic stability evaluation framework and an energy decomposition approach that bridges theoretical analysis with practical applicability, addressing the urgent need for tools for managing modern power system evolving stability challenges.",
+  "volume": "4",
+  "issue": "3",
+  "firstpage": "157",
+  "lastpage": "164",
+  "publication_date": "2025/9/20",
+  "online_date": "2025/9/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0016.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0016",
+  "research_area": [
+   "Power System Operation and Control",
+   "Electric Power Conversion"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0018",
+  "title": "Generalized shipboard microgrid power flow incorporating hierarchical control",
+  "authors": [
+   "Stephen Mossing",
+   "Oscar Amestegui",
+   "Michael Jonas",
+   "Fei Feng",
+   "Lizhi Wang",
+   "Qing Shen",
+   "Sina Zarrabian",
+   "Ziqian Liu",
+   "Peng Zhang"
+  ],
+  "keywords": [
+   "Shipboard microgrid",
+   "hierarchical control",
+   "three-phase power flow"
+  ],
+  "abstract": "Modern shipboard microgrids (SMGs) incorporating distributed energy resources (DERs) enhance energy resilience and reduce carbon emissions. However, the hierarchical control schemes of DERs bring challenges to the traditional power flow methods. This paper devises a generalized three-phase power flow approach for SMGs that integrate hierarchically controlled DERs. The main contributions include: (1) a droop-controlled three-phase Newton power flow algorithm that automatically incorporates the droop characteristics of DERs; (2) a secondary-controlled three-phase power flow method for power sharing and voltage regulation; and (3) modified Jacobian matrices to incorporate various hierarchical control modes. Numerical results demonstrate the effectiveness of the devised approach in both balanced and unbalanced three-phase hierarchically controlled SMG systems with arbitrary configurations.",
+  "volume": "4",
+  "issue": "3",
+  "firstpage": "165",
+  "lastpage": "173",
+  "publication_date": "2025/9/20",
+  "online_date": "2025/9/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0018.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0018",
+  "research_area": [
+   "Energy System Integration",
+   "Energy System for Transportation"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0017",
+  "title": "Two-stage optimization of route, speed, and energy management for hybrid energy ship under sea conditions",
+  "authors": [
+   "Xiaoyuan Luo",
+   "Jiaxuan Wang",
+   "Xinyu Wang",
+   "Xinping Guan"
+  ],
+  "keywords": [
+   "Hybrid ship power system",
+   "two-stage optimization dispatch",
+   "speed scheduling",
+   "sea conditions",
+   "modified A-star algorithm",
+   "improved grey wolf optimization algorithm"
+  ],
+  "abstract": "As future ship system, hybrid energy ship system has a wide range of application prospects for solving the serious energy crisis. However, current optimization scheduling works lack the consideration of sea conditions and navigational circumstances. Therefore, this paper aims at establishing a two-stage optimization framework for hybrid energy ship power system. The proposed framework considers multiple optimizations of route, speed planning, and energy management under the constraints of sea conditions during navigation. First, a complex hybrid ship power model consisting of diesel generation system, propulsion system, energy storage system, photovoltaic power generation system, and electric boiler system is established, where sea state information and ship resistance model are considered. With objective optimization functions of cost and greenhouse gas (GHG) emissions, a two-stage optimization framework consisting of route planning, speed scheduling, and energy management is constructed. Wherein the improved A-star algorithm and grey wolf optimization algorithm are introduced to obtain the optimal solutions for route, speed, and energy optimization scheduling. Finally, simulation cases are employed to verify that the proposed two-stage optimization scheduling model can reduce load energy consumption, operating costs, and carbon emissions by 17.8%, 17.39%, and 13.04%, respectively, compared with the non-optimal control group.",
+  "volume": "4",
+  "issue": "3",
+  "firstpage": "174",
+  "lastpage": "192",
+  "publication_date": "2025/9/20",
+  "online_date": "2025/9/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0017.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0017",
+  "research_area": [
+   "Energy System for Transportation",
+   "Energy Storage"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0019",
+  "title": "Fusion of deep learning and machine learning methods for hourly locational marginal price forecast in power systems",
+  "authors": [
+   "Matin Farhoumandi",
+   "Sheida Bahramirad",
+   "Ahmed Alabdulwahab",
+   "Mohammad Shahidehpour",
+   "Farrokh Rahimi",
+   "Ali Ipakchi",
+   "Farrokh Albuyeh",
+   "Sasan Mokhtari"
+  ],
+  "keywords": [
+   "Locational marginal price forecasting",
+   "machine learning",
+   "deep learning",
+   "non-conforming net loads",
+   "probability of price spikes"
+  ],
+  "abstract": "In this paper, we propose STPLF, which stands for the short-term forecasting of locational marginal price components, including the forecasting of non-conforming hourly net loads. The volatility of transmission-level hourly locational marginal prices (LMPs) is caused by several factors, including weather data, hourly gas prices, historical hourly loads, and market prices. In addition, variations of non-conforming net loads, which are affected by behind-the-meter distributed energy resources (DERs) and retail customer loads, could have a major impact on the volatility of hourly LMPs, as bulk grid operators have limited visibility of such retail-level resources. We propose a fusion forecasting model for the STPLF, which uses machine learning and deep learning methods to forecast non-conforming loads and respective hourly prices. Additionally, data preprocessing and feature extraction are used to increase the accuracy of the STPLF. The proposed STPLF model also includes a post-processing stage for calculating the probability of hourly LMP spikes. We use a practical set of data to analyze the STPLF results and validate the proposed probabilistic method for calculating the LMP spikes.",
+  "volume": "4",
+  "issue": "3",
+  "firstpage": "193",
+  "lastpage": "204",
+  "publication_date": "2025/9/20",
+  "online_date": "2025/9/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0019.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0019",
+  "research_area": [
+   "Energy Economics, Policies and Strategies",
+   "Digital Energy Systems"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0020",
+  "title": "Eggshell-inspired high-load rigid porous microcapsules for efficient self-healing of multimodal damage in insulating materials",
+  "authors": [
+   "Chaolu Niu",
+   "Wenxia Sima",
+   "Potao Sun",
+   "Qichang Liu",
+   "Tao Yuan",
+   "Ming Yang",
+   "Zheng Fang",
+   "Hefei Wang",
+   "Wenxu Tang",
+   "Jiameng Xu",
+   "Yuhang Yang",
+   "Yuxiang Mai",
+   "Binghao Chen"
+  ],
+  "keywords": [
+   "Eggshell-inspired structure",
+   "microcapsules",
+   "high loading rate",
+   "multimodal damage",
+   "self-healing"
+  ],
+  "abstract": "To address the inherent trade-off between mechanical strength and repair efficiency in conventional microcapsule-based self-healing technologies, this study presents an eggshell-inspired approach for fabricating high-load rigid porous microcapsules (HLRPMs) through subcritical water etching. By optimizing the subcritical water treatment parameters (OH− concentration: 0.031 mol/L, temperature: 240 °C, duration: 1.5 h), nanoscale through-holes were generated on hollow glass microspheres (shell thickness ≈ 700 nm). The subsequent gradient pressure infiltration of flaxseed oil enabled a record-high core content of 88.2%. Systematic investigations demonstrated that incorporating 3 wt% HLRPMs into epoxy resin composites preserved excellent dielectric properties (breakdown strength ≥ 30 kV/mm) and enhanced tensile strength by 7.52%. In addressing multimodal damage, the system achieved a 95.5% filling efficiency for mechanical scratches, a 97.0% reduction in frictional damage depth, and a 96.2% recovery of insulation following electrical treeing. This biomimetic microcapsule system concurrently improved self-healing capability and matrix performance, offering a promising strategy for the development of next-generation smart insulating materials.",
+  "volume": "4",
+  "issue": "3",
+  "firstpage": "205",
+  "lastpage": "214",
+  "publication_date": "2025/9/20",
+  "online_date": "2025/9/10",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0020.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0020",
+  "research_area": [
+   "Energy Equipment"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0014",
+  "title": "Three key policy areas in urgent need of improvement for advancing China’s energy transition",
+  "authors": [
+   "Peng Li",
+   "Jing Zhang"
+  ],
+  "keywords": [],
+  "abstract": "",
+  "volume": "4",
+  "issue": "2",
+  "firstpage": "77",
+  "lastpage": "78",
+  "publication_date": "2025/6/20",
+  "online_date": "2025/6/24",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0014.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "News & Views",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0014",
+  "research_area": [
+   "Energy Economics, Policies and Strategies"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0012",
+  "title": "How many grid-forming converters are needed? – A techno-economic perspective",
+  "authors": [
+   "Guoxuan Cui",
+   "Hongyang Jia",
+   "Ning Zhang",
+   "Fei Teng"
+  ],
+  "keywords": [
+   "Grid-forming",
+   "grid-following",
+   "power system planning",
+   "optimal GFM allocation",
+   "power system operation",
+   "renewable energy resources"
+  ],
+  "abstract": "Renewable generation is rapidly increasing and transforming power systems toward “new-type power systems”. The integration of renewable energy resources necessitates a shift from conventional grid-following converters (GFLs) to advanced grid-forming controls. Although grid-forming converters (GFMs) provide grid support and enhance system stability under weak grid conditions, their deployment requires more robust hardware, complex control algorithms and system operation constraints, resulting in planning and operational trade-offs between system stability and cost efficiency. This paper studies the underexplored question of how many GFMs are needed from a techno-economic perspective. The holistic analysis integrates long-term planning, short-term operational strategies and dynamic stability considerations, thereby supporting large-scale renewable integration while ensuring system security and economic benefits.",
+  "volume": "4",
+  "issue": "2",
+  "firstpage": "79",
+  "lastpage": "85",
+  "publication_date": "2025/6/20",
+  "online_date": "2025/6/24",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0012.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Letter",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0012",
+  "research_area": [
+   "Power System Operation and Control",
+   "Energy Economics, Policies and Strategies"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0008",
+  "title": "Energy-efficient and reliable urban rail transit: A new framework incorporating underground energy storage systems",
+  "authors": [
+   "Boyu Qin",
+   "Jialing Liu",
+   "Hongzhen Wang",
+   "Zhaojian Wang",
+   "Ziming Xiong",
+   "Mingyang Wang",
+   "Qihu Qian"
+  ],
+  "keywords": [
+   "Urban rail transit",
+   "underground space",
+   "energy storage system",
+   "renewable energy",
+   "low carbon",
+   "resilience enhancement"
+  ],
+  "abstract": "Within the transition process of urban rail transit systems, the challenges of high energy consumption, increasing carbon emissions, limited economic viability, and intricate risks emerge as significant hurdles. This paper proposes a novel energy utilization framework for the urban rail transit system that incorporates underground energy storage systems characterized by high resilience and low carbon. First, existing methods employed in urban rail transit are comprehensively reviewed. Then, a novel framework and strategic significance of the urban rail transit system incorporating underground energy storage systems are introduced. This integration effectively utilizes and manages diverse renewable energy sources and the available space resources. The viability is demonstrated through a case study by combining Nanjing metro. Finally, suggestions for research in pivotal areas are summarized.",
+  "volume": "4",
+  "issue": "2",
+  "firstpage": "86",
+  "lastpage": "97",
+  "publication_date": "2025/6/20",
+  "online_date": "2025/6/24",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0008.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0008",
+  "research_area": [
+   "Energy System for Transportation",
+   "Energy Storage"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0013",
+  "title": "Enhancing operational planning of active distribution networks considering effective topology selection and thermal energy storage",
+  "authors": [
+   "Vineeth Vijayan",
+   "Ali Arzani",
+   "Satish M. Mahajan"
+  ],
+  "keywords": [
+   "Operational planning",
+   "power distribution network",
+   "PV inverters",
+   "thermal energy storage systems",
+   "topology selection"
+  ],
+  "abstract": "Grid-scale energy storage systems provide effective solutions to address challenges such as supply-load imbalances and voltage violations resulting from the non-coinciding nature of renewable energy generation and peak demand incidents. While battery and hydrogen storage are commonly used for peak shaving, ice-based thermal energy storage systems (TESSs) offer a direct way to reduce cooling loads without electrical conversion. This paper presents a multi-objective planning framework that optimizes TESS dispatch, network topology, and photovoltaic (PV) inverter reactive power support to address operational issues in active distribution networks. The objectives of the proposed scheme include minimizing peak demand, voltage deviations, and PV inverter VAr dependency. The mixed-integer nonlinear programming problem is solved using a Pareto-based multi-objective particle swarm optimization (MOPSO) method. The MATLAB–OpenDSS simulations for a modified IEEE-123 bus system show a 7.1% reduction in peak demand, a 13% reduction in voltage deviation, and a 52% drop in PV inverter VAr usage. The obtained solutions confirm minimal operational stress on control devices such as switches and PV inverters. Thus, unlike earlier studies, this work combines all three strategies to offer an effective solution for the operational planning of the active distribution network.",
+  "volume": "4",
+  "issue": "2",
+  "firstpage": "98",
+  "lastpage": "106",
+  "publication_date": "2025/6/20",
+  "online_date": "2025/6/24",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0013.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0013",
+  "research_area": [
+   "Electric Power Delivery",
+   "Energy Storage"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0009",
+  "title": "Quantum-accelerated active distribution network planning based on coherent photonic quantum computers",
+  "authors": [
+   "Yu Xin",
+   "Haipeng Xie",
+   "Wei Fu"
+  ],
+  "keywords": [
+   "Active distribution network planning",
+   "coherent photonic quantum computer",
+   "photonic quantum-embedded adaptive ADMM algorithm",
+   "quantum computing"
+  ],
+  "abstract": "Active distribution network (ADN) planning is crucial for achieving a cost-effective transition to modern power systems, yet it poses significant challenges as the system scale increases. The advent of quantum computing offers a transformative approach to solve ADN planning. To fully leverage the potential of quantum computing, this paper proposes a photonic quantum acceleration algorithm. First, a quantum-accelerated framework for ADN planning is proposed on the basis of coherent photonic quantum computers. The ADN planning model is then formulated and decomposed into discrete master problems and continuous subproblems to facilitate the quantum optimization process. The photonic quantum-embedded adaptive alternating direction method of multipliers (PQA-ADMM) algorithm is subsequently proposed to equivalently map the discrete master problem onto a quantum-interpretable model, enabling its deployment on a photonic quantum computer. Finally, a comparative analysis with various solvers, including Gurobi, demonstrates that the proposed PQA-ADMM algorithm achieves significant speedup on the modified IEEE 33-node and IEEE 123-node systems, highlighting its effectiveness.",
+  "volume": "4",
+  "issue": "2",
+  "firstpage": "107",
+  "lastpage": "120",
+  "publication_date": "2025/6/20",
+  "online_date": "2025/6/24",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0009.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0009",
+  "research_area": [
+   "Electric Power Delivery",
+   "Digital Energy Systems"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0011",
+  "title": "Strength-constrained unit commitment in IBR dominant power systems",
+  "authors": [
+   "Yong-Kyu Kim",
+   "Sang-Ho Lee",
+   "Gyu-Sub Lee"
+  ],
+  "keywords": [
+   "Unit commitment",
+   "system strength",
+   "inverter-based resource",
+   "power system stability",
+   "mixed-integer programming"
+  ],
+  "abstract": "In this paper, a strength-constrained unit commitment (UC) model incorporating system strength constraints based on the weighted short-circuit ratio (WSCR) is proposed. This model facilitates the comprehensive assessment of area-wide system strength in power systems with high inverter-based resource (IBR) penetration, thereby contributing to the mitigation of weak grid issues. Unlike traditional models, this approach considers the interactions among multiple IBRs. The UC problem is initially formulated as a mixed-integer nonlinear programming (MINLP) model, reflecting WSCR and bus impedance matrix modification constraints. To enhance computational tractability, the model is transformed into a mixed-integer linear programming (MILP) form. The effectiveness of the proposed approach is validated through simulations on the IEEE 5-bus, IEEE 39-bus, and a modified Korean power system, demonstrating the ability of the proposed UC model enhancing system strength compared to the conventional methodologies.",
+  "volume": "4",
+  "issue": "2",
+  "firstpage": "121",
+  "lastpage": "131",
+  "publication_date": "2025/6/20",
+  "online_date": "2025/6/24",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0011.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0011",
+  "research_area": [
+   "Power System Operation and Control"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0010",
+  "title": "Facilitating wide-band oscillation analysis in wind farms with a novel linearization analysis framework based on the average-value model",
+  "authors": [
+   "Qiufang Zhang",
+   "Yin Xu",
+   "Jinghan He"
+  ],
+  "keywords": [
+   "Wide-band oscillation analysis",
+   "average-value model (AVM)",
+   "doubly fed induction generator (DFIG)",
+   "permanent magnet synchronous generator (PMSG)",
+   "eigenvalue analysis",
+   "impedance analysis"
+  ],
+  "abstract": "Wide-band oscillations have become a significant issue limiting the development of wind power. Both large-signal and small-signal analyses require extensive model derivation. Moreover, the large number and high order of wind turbines have driven the development of simplified models, whose applicability remains controversial. In this paper, a wide-band oscillation analysis method based on the average-value model (AVM) is proposed for wind farms (WFs). A novel linearization analysis framework is developed, leveraging the continuous-time characteristics of the AVM and MATLAB/Simulink’s built-in linearization tools. This significantly reduces modeling complexity and computational costs while maintaining model fidelity. Additionally, an object-based initial value estimation method of state variables is introduced, which, when combined with steady-state point-solving tools, greatly reduces the computational effort required for equilibrium point solving in batch linearization analysis. The proposed method is validated in both doubly fed induction generator (DFIG)-based and permanent magnet synchronous generator (PMSG)-based WFs. Furthermore, a comprehensive analysis is conducted for the first time to examine the impact of the machine-side system on the system stability of the non-fully controlled PMSG-based WF.",
+  "volume": "4",
+  "issue": "2",
+  "firstpage": "132",
+  "lastpage": "148",
+  "publication_date": "2025/6/20",
+  "online_date": "2025/6/24",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0010.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0010",
+  "research_area": [
+   "Wind Energy",
+   "Power System Operation and Control"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0002",
+  "title": "The rooftop PV revolution",
+  "authors": [
+   "Antonio Gómez-Expósito"
+  ],
+  "keywords": [],
+  "abstract": "",
+  "volume": "4",
+  "issue": "1",
+  "firstpage": "1",
+  "lastpage": "2",
+  "publication_date": "2025/3/20",
+  "online_date": "2025/1/29",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0002.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "News & Views",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0002",
+  "research_area": [
+   "Solar Energy"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0001",
+  "title": "Critical clearing time sensitivity of power systems with high power electronic penetration",
+  "authors": [
+   "Yuqian Zhang",
+   "Feng Liu",
+   "Qinglai Guo"
+  ],
+  "keywords": [
+   "Grid forming converters",
+   "large signal stability",
+   "nonlinear dynamic system",
+   "inverter-based resources"
+  ],
+  "abstract": "In recent years, the increased application of inverter-based resources in power grids, along with the gradual replacement of synchronous generators, has made the grid support capability of inverters essential for maintaining system stability under large disturbances. Critical clearing time provides a quantitative measure of fault severity and system stability, and its sensitivity can help guide parameter adjustments to enhance the grid support capability of inverters. Building on previous researches, this paper proposes a method for calculating critical clearing time sensitivity in power systems with a high proportion of power electronic devices, accounting for the new dynamic characteristics introduced by these devices. The current limit and switching control of inverter-based resources are considered, and the critical clearing time sensitivity under controlling periodic orbits is derived. The proposed critical clearing time sensitivity calculation method is then validated using a double generator single load system and a modified 39-bus system.",
+  "volume": "4",
+  "issue": "1",
+  "firstpage": "3",
+  "lastpage": "15",
+  "publication_date": "2025/3/20",
+  "online_date": "2025/1/29",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0001.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0001",
+  "research_area": [
+   "Power System Operation and Control",
+   "Electric Power Conversion"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0003",
+  "title": "Centralized synthetic inertia control of inverter-based thermostatically controlled load clusters for grid frequency regulation",
+  "authors": [
+   "Te Zhou",
+   "Meng Zhou",
+   "Shuai Wang",
+   "Zhi Li",
+   "Yang Han",
+   "Tomislav Capuder",
+   "Ning Zhang"
+  ],
+  "keywords": [
+   "Thermostatically controlled load",
+   "demand response",
+   "frequency response",
+   "centralized frequency regulation",
+   "inertia analog"
+  ],
+  "abstract": "As the development of new power systems progresses, the inherent inertia of power systems continues to diminish. Centralized frequency regulation, which relies on rapid communication and real-time control, can enable inverter-based thermostatically controlled load (ITCL) clusters to provide virtual inertia support to the power grid. However, ITCL clusters exhibit significant discrete response characteristics, which precludes the direct integration of load-side inertia support into the synchronous unit side. To address this issue, this paper elaborates on the existing technical framework and analyzes the underlying causes of the problem. It proposes a timestamp allocation mechanism for ITCL cluster control instructions, ensuring that many ITCL terminals can be triggered at staggered times, thereby allowing the load cluster power to adhere to the inertia analog control law at any moment. Building on this foundation, the paper further examines the impact of the inertia response delay of ITCL clusters, which is based on centralized frequency regulation, on the stability of the power system. A design scheme for inertia analog control parameters is proposed, taking into account dual constraints, frequency stability and load cluster regulation capacity. Finally, the feasibility and applicability of the proposed mechanism and parameter design scheme are investigated through simulations conducted via MATLAB/Simulink.",
+  "volume": "4",
+  "issue": "1",
+  "firstpage": "16",
+  "lastpage": "30",
+  "publication_date": "2025/3/20",
+  "online_date": "2025/3/19",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0003.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0003",
+  "research_area": [
+   "Power System Operation and Control",
+   "Energy System for Residence"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0004",
+  "title": "A risk-aware coordinated trading strategy for load aggregators with energy storage systems in the electricity spot market and demand response market",
+  "authors": [
+   "Ziyang Xiang",
+   "Chunyi Huang",
+   "Kangping Li",
+   "Chengmin Wang",
+   "Pierluigi Siano"
+  ],
+  "keywords": [
+   "Load aggregators",
+   "demand response",
+   "energy storage",
+   "incentive pricing",
+   "bidding strategy",
+   "trading risk"
+  ],
+  "abstract": "The demand response (DR) market, as a vital complement to the electricity spot market, plays a key role in evoking user-side regulation capability to mitigate system-level supply‒demand imbalances during extreme events. While the DR market offers the load aggregator (LA) additional profitable opportunities beyond the electricity spot market, it also introduces new trading risks due to the significant uncertainty in users’ behaviors. Dispatching energy storage systems (ESSs) is an effective means to enhance the risk management capabilities of LAs; however, coordinating ESS operations with dual-market trading strategies remains an urgent challenge. To this end, this paper proposes a novel systematic risk-aware coordinated trading model for the LA in concurrently participating in the day-ahead electricity spot market and DR market, which incorporates the capacity allocation mechanism of ESS based on market clearing rules to jointly formulate bidding and pricing decisions for the dual market. First, the intrinsic coupling characteristics of the LA participating in the dual market are analyzed, and a joint optimization framework for formulating bidding and pricing strategies that integrates ESS facilities is proposed. Second, an uncertain user response model is developed based on price‒response mechanisms, and actual market settlement rules accounting for under- and over-responses are employed to calculate trading revenues, where possible revenue losses are quantified via conditional value at risk. Third, by imposing these terms and the capacity allocation mechanism of ESS, the risk-aware stochastic coordinated trading model of the LA is built, where the bidding and pricing strategies in the dual model that trade off risk and profit are derived. The simulation results of a case study validate the effectiveness of the proposed trading strategy in controlling trading risk and improving the trading income of the LA.",
+  "volume": "4",
+  "issue": "1",
+  "firstpage": "31",
+  "lastpage": "42",
+  "publication_date": "2025/3/20",
+  "online_date": "2025/3/19",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0004.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0004",
+  "research_area": [
+   "Energy Economics, Policies and Strategies",
+   "Energy Storage"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0005",
+  "title": "Nodal frequency-constrained energy storage planning via hybrid data-model driven methods",
+  "authors": [
+   "Jiaxin Wang",
+   "Jiawei Zhang",
+   "Min Yang",
+   "Yating Wang",
+   "Ning Zhang"
+  ],
+  "keywords": [
+   "Frequency nadir",
+   "energy storage",
+   "inverter-based resources",
+   "security-constrained planning"
+  ],
+  "abstract": "Cross-regional high voltage direct current (HVDC) systems bring remarkable renewable power injections to the receiver side of power grids. However, HVDC failures result in large disturbances to receivers and cause critical frequency security problems. High renewable energy penetration also reduces the system inertia and damping coefficients. Thus, some nodal frequency nadirs may be much lower than those calculated by the center-of-inertia (COI) and may trigger low-frequency protection. Energy storage is a promising solution for frequency-related problems. In this study, we build an energy storage planning model considering both COI and nodal frequency security constraints. The energy storage capacities and locations are determined in the planning scheme based on year-round operations. First, we carry out a year-round COI-frequency-constrained unit commitment to obtain comprehensive operation modes. Next, we propose a hybrid data-model driven approach to generate nodal frequency security constraints for extensive operation modes effectively. Finally, we achieve optimal energy storage planning with both COI and nodal frequency constraints. Case studies on a modified RTS-79 test system and a 1089-bus power system in practical in Jiangsu, China, verify the effectiveness of the proposed methods.",
+  "volume": "4",
+  "issue": "1",
+  "firstpage": "43",
+  "lastpage": "53",
+  "publication_date": "2025/3/20",
+  "online_date": "2025/3/24",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0005.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0005",
+  "research_area": [
+   "Energy Storage",
+   "Power System Operation and Control"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0007",
+  "title": "Estimating the carbon emission reduction potential of using carbon-oriented demand response for data centers: A case study in China",
+  "authors": [
+   "Bojun Du",
+   "Hongyang Jia",
+   "Yaowang Li",
+   "Ershun Du",
+   "Ning Zhang",
+   "Dong Liang"
+  ],
+  "keywords": [
+   "Data center",
+   "temporal and spatial flexibility",
+   "carbon-oriented demand response",
+   "carbon reduction",
+   "planning and operation simulation"
+  ],
+  "abstract": "The rapid advancement of artificial intelligence (AI) has significantly increased the computational load on data centers. AI-related computational activities consume considerable electricity and result in substantial carbon emissions. To mitigate these emissions, future data centers should be strategically planned and operated to fully utilize renewable energy resources while meeting growing computational demands. This paper aims to investigate how much carbon emission reduction can be achieved by using a carbon-oriented demand response to guide the optimal planning and operation of data centers. A carbon-oriented data center planning model is proposed that considers the carbon-oriented demand response of the AI load. In the planning model, future operation simulations comprehensively coordinate the temporal‒spatial flexibility of computational loads and the quality of service (QoS). An empirical study based on the proposed models is conducted on real-world data from China. The results from the empirical analysis show that newly constructed data centers are recommended to be built in Gansu Province, Ningxia Hui Autonomous Region, Sichuan Province, Inner Mongolia Autonomous Region, and Qinghai Province, accounting for 57% of the total national increase in server capacity. 33% of the computational load from Eastern China should be transferred to the West, which could reduce the overall load carbon emissions by 26%.",
+  "volume": "4",
+  "issue": "1",
+  "firstpage": "54",
+  "lastpage": "64",
+  "publication_date": "2025/3/20",
+  "online_date": "2025/3/24",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0007.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0007",
+  "research_area": [
+   "Low Carbon Energy Technologies",
+   "Energy System for Industry"
+  ]
+ },
+ {
+  "doi": "10.23919/IEN.2025.0006",
+  "title": "A novel carrier interleaved PWM method for four-level nested neutral-point-clamped inverters",
+  "authors": [
+   "Wei Zhou",
+   "Jupeng Pang",
+   "Mingzhe Wu",
+   "Chao Wang",
+   "Kui Wang",
+   "Yongdong Li"
+  ],
+  "keywords": [
+   "Multilevel converters",
+   "capacitor voltage balance",
+   "pulse width modulation"
+  ],
+  "abstract": "The four-level nested neutral-point-clamped (4L-NNPC) inverter is a competitive topology among the various medium-voltage multilevel converters, and its main issue is flying-capacitor voltage unbalance. In this article, a novel carrier-interleaved pulse width modulation (CIPWM) method that satisfies the volt-sec balance principle is proposed with an advanced carrier distribution rule. By adopting the proposed CIPWM method, the redundant switching states of 4L-NNPC inverters can be evenly distributed into the output PWM waveform in each carrier period, and natural flying-capacitor voltage balance can be achieved. Furthermore, an active balancing strategy is also proposed to eliminate the voltage unbalance caused by nonideal factors, which is realized by simply adjusting the duty cycle and with no need to adjust the redundant switching states for 4L-NNPC inverters. The simulation and experimental results verify the effectiveness of the proposed CIPWM method and the flying-capacitor voltage balancing strategy.",
+  "volume": "4",
+  "issue": "1",
+  "firstpage": "65",
+  "lastpage": "76",
+  "publication_date": "2025/3/20",
+  "online_date": "2025/3/24",
+  "pdf": "https://www.sciopen.com/local/article_pdf/10.23919/IEN.2025.0006.pdf",
+  "publisher": "清华大学出版社",
+  "issn": "2771-9197",
+  "type": "Article",
+  "year": 2025,
+  "url": "https://doi.org/10.23919/IEN.2025.0006",
+  "research_area": [
+   "Electric Power Conversion"
+  ]
+ }
+]
